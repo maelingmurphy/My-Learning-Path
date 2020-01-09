@@ -1,6 +1,9 @@
 # Learning Log
 
 
+## January 8, 2020 WED
+#### [VIEW #100daysofcode Day 7 LOG entry](https://github.com/maelingmurphy/100-days-of-code/blob/master/log.md#day-7-january-8-2020-wednesday)
+----------------------------------------------------------
 ## January 7, 2020 TUE
 #### [VIEW #100daysofcode Day 6 LOG entry](https://github.com/maelingmurphy/100-days-of-code/blob/master/log.md#day-6-january-7-2020-tuesday)
 ----------------------------------------------------------
