@@ -1081,7 +1081,7 @@ Mailchimp embedded form on client's site to set up an automation sequence based 
 
 ----------------------------------------------------------
 ## December 30, 2019 
-- Accepted to Kenzie Academy Software Engineering program
+- Accepted to Kenzie Academy Software Engineering program (chose not to do the program)
 
 ----------------------------------------------------------
 
