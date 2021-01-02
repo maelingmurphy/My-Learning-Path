@@ -340,7 +340,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 [2020 CS50 Week 7 SQL Lecture](https://www.youtube.com/watch?v=ZX2T7slE_9I)
 
 ----------------------------------------------------------
-## Day  November 15, 2020
+## November 15, 2020
 **Today's Progress**:
 - Finished Pset6 DNA program in CS50:
     - Learned how to access and store CSV header names in a separate list with DictReader fieldnames
@@ -356,7 +356,7 @@ I've made more progress on this DNA program today than I have in all the days si
 5. [How to compare dictionaries in Python](https://www.kite.com/python/answers/how-to-compare-dictionaries-in-python)
 
 ----------------------------------------------------------
-## Day  November 7, 2020
+## November 7, 2020
 **Today's Progress**:
 - Started working on 'Python for Everybody' curriculum via freeCodeCamp
 
@@ -445,17 +445,17 @@ python-string-contains/)
 
 ----------------------------------------------------------
 
-## Day  July 20, 2020
+## July 20, 2020
 **Today's Progress**:
 - Continued with CS50 week 6 lecture on Python
 
 ----------------------------------------------------------
-## Day July 1, 2020
+## July 1, 2020
 **Today's Progress**:
 - Continued with CS50 week 6 lecture on Python
 
 ----------------------------------------------------------
-## Day  June 30, 2020
+## June 30, 2020
 **Today's Progress**:
 - Started Week 6 of CS50, focusing on Python
 
@@ -480,7 +480,7 @@ This problem set really helped me to better understand the use of pointers and h
 2. More [hash functions](http://www.cse.yorku.ca/~oz/hash.html)
 
 ----------------------------------------------------------
-## Day 68: April 10, 2020
+## April 10, 2020
 **Today's Progress**:
 - Finished 'recover' to complete pset 4 in CS50
 - Successfully submitted my 'recover' program to conclude week 4 of CS50
@@ -505,12 +505,14 @@ This problem set really helped me to understand how to create new files and open
 **Today's Progress**:
 - Finished coding the blur filter for pset 4 in CS50
 - Successfully submited my filter program for pset 4 in CS50
+
 **Thoughts**: I was stuck on how to implement the logic for some `if` statements in one of my `for` loops and was surprised at how much things began to make more sense once I started explaining my thought process out loud! I really do need a rubber duck for my desk lol! 
 
 ----------------------------------------------------------
 ## March 31, 2020
 **Today's Progress**:
 - Continued working on blur filter for pset 4 in CS50
+
 **Thoughts**: Drawing a 3x3 box and identifying which pixels would need to be counted for the average for each pixel in the box definitely helped me start to visualize how to approach this problem. 
 
 ----------------------------------------------------------
@@ -520,26 +522,27 @@ This problem set really helped me to understand how to create new files and open
 - Successfully programmed sepia filter for pset 4 in CS50
 - Successfully programmed reflect filter for pset 4 in CS50
 - Started working on blur filter for pset 4 in CS50
+
 **Thoughts**: 
 I love to use photo editing tools so it was really exciting to start to understand how algorithms are used to apply various photo effects and to code my own photo filters!
-**Link to work**:
+
 **Resources**
 [Various grayscale algorithms](https://tannerhelland.com/2011/10/01/grayscale-image-algorithm-vb6.html)
 
 ----------------------------------------------------------
-## Day 63 : March 25, 2020
+## March 25, 2020
 **Today's Progress**:
 - Reviewed the objective for the filter challenge in problem set 4 in CS50
 
 
 ----------------------------------------------------------
-## Day 62 : March 24, 2020
+## March 24, 2020
 **Today's Progress**:
 - Studied file pointers: `fopen()`, `fclose()`, `fgetc()`, `fputc()`, `fread()`, `fwrite()` in C 
 
 
 ----------------------------------------------------------
-## Day 61 : March 21, 2020
+## March 21, 2020
 **Today's Progress**:
 - Studied call stacks in C
 
@@ -559,6 +562,7 @@ I love to use photo editing tools so it was really exciting to start to understa
 ## March 12, 2020
 **Today's Progress**:
 - Started reviewing CS50 Week 4 Shorts: Hexadecimal numbers 
+
 **Thoughts**: 
 Memory addresses are expressed in hexadecimal in C and a '0x' prefix is used to denote hexadecimal numbers so they are distinguishable from other base number systems. 
 
@@ -572,9 +576,9 @@ Memory addresses are expressed in hexadecimal in C and a '0x' prefix is used to 
 ## March 4, 2020
 **Today's Progress**:
 - Reviewed the pseudocode, big-O and big-omega for various sorting and search algorithms:
+    - Sort - selection, bubble, insertion, merge
+    - Search - linear, binary 
 
-Sort - selection, bubble, insertion, merge
-Search - linear, binary 
 **Resources**
 1. [Linear Search](https://www.youtube.com/watch?v=TwsgCHYmbbA)
 2. [Binary Search](https://www.youtube.com/watch?v=T98PIp4omUA)
@@ -589,10 +593,11 @@ Search - linear, binary
 ## March 2, 2020
 **Today's Progress**:
 - Finished coding my program for the 'runoff' challenge in pset3 and submitted it successfully! 
+
 **Thoughts**: I realized today that the reason I was having problems with some of my functions were because of not understanding how return statements should be used within functions. 
-**Link to work**:
+
 **Resources**
-[Return statements in C](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
+- [Return statements in C](https://www.geeksforgeeks.org/return-statement-in-c-cpp-with-examples/)
 
 ----------------------------------------------------------
 ## March 1, 2020 
@@ -605,15 +610,17 @@ Search - linear, binary
 **Today's Progress**:
 - More work with nested for loops while coding the next function needed for my 'runoff' program for pset 3 in CS50
 - Learned how to use break statements to terminate the inner loop in order to force the execution of the next iteration of the outer loop
+
 **Resources**
-[Nested loops] (http://eecs.oregonstate.edu/ecampus-video/CS161/template/chapter_5/nested.html)
+- [Nested loops] (http://eecs.oregonstate.edu/ecampus-video/CS161/template/chapter_5/nested.html)
 
 ----------------------------------------------------------
 ## February 25, 2020
 **Today's Progress**:
 - Continued work on the 'runoff' problem in pset3 for CS50. Completed the voter() function which updates the voters preference array with each voter's candidate preference ranking. 
 
-**Thoughts**: Nested for loops have started to make more sense to me as I used them to create a function to update my voter preferences array. The inner loop (explain how it works)... 
+**Thoughts**: Nested for loops have started to make more sense to me as I used them to create a function to update my voter preferences array.
+
 **Resources**
 1. [Multidimensional arrays in C](https://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm)
 2. [2D arrays in C] (https://beginnersbook.com/2014/01/2d-arrays-in-c-example/)
@@ -660,12 +667,13 @@ Search - linear, binary
 ----------------------------------------------------------
 ## February 1, 2020
 **Today's Progress**:
-1. Completed and submitted the 'readability' program for problem set 2 in CS50
+- Completed and submitted the 'readability' program for problem set 2 in CS50
 
-**Thoughts**: In solving this coding challenge, I learned the importance of making sure I was working with the right data types so my Coleman-Liau equation yielded accurate values. For example, using `float` instead of `int`, gave me more accuracy in my values to be used in the final equation since dividing two `int`s could lead to truncation of values, ultimately leading to a final incorrectly computed value. 
+**Thoughts**:
+In solving this coding challenge, I learned the importance of making sure I was working with the right data types so my Coleman-Liau equation yielded accurate values. For example, using `float` instead of `int`, gave me more accuracy in my values to be used in the final equation since dividing two `int`s could lead to truncation of values, ultimately leading to a final incorrectly computed value. 
 
 **Resources**
-[CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
+- [CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
 ----------------------------------------------------------
 ## January 31, 2020
 **Today's Progress**:
@@ -684,23 +692,24 @@ Search - linear, binary
 - Worked on problem set 2 in CS50. Worked on creating a function that counts the number of letters in a string of text that the user inputs.
 
 **Resources**
-[CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
+- [CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
 ----------------------------------------------------------
 ## January 28, 2020
 **Today's Progress**:
 - Reviewed nested if & switch statements and logical operators in C  on the Sololearn app.
 
 **Resources**
-[Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
+- [Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
 ----------------------------------------------------------
 ## January 27, 2020
 **Today's Progress**:
 - Started building my 'readability' program in C for #CS50 problem set 2. 
 
-**Thoughts**: It's an interesting problem incorporating the Coleman-Liau formula to assign a grade level to an input of sample text.
+**Thoughts**:
+It's an interesting problem incorporating the Coleman-Liau formula to assign a grade level to an input of sample text.
 
 **Resources**
-[CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
+- [CS50 Problem Set 2](https://cs50.harvard.edu/x/2020/psets/2/)
 
 ----------------------------------------------------------
 ## January 26, 2020
@@ -708,14 +717,14 @@ Search - linear, binary
 - Reviewed conditionals & loops in C #sololearn
 
 **Resources**
-[Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
+- [Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
 ----------------------------------------------------------
 ## January 25, 2020
 **Today's Progress**:
 - Finished the 'Basic Concepts' section in the C tutorial on the Sololearn app. 
 
 **Resources**
-[Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
+- [Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
 ----------------------------------------------------------
 ## January 24, 2020
 **Today's Progress**: 
@@ -737,10 +746,11 @@ Search - linear, binary
 **Today's Progress**:
 - Finished watching lecture 2 of #cs50 about arrays in C.
 
-**Thoughts**: Also learned about type casting, where you can convert one data type into another, e.g. converting an int to a float.
+**Thoughts**:
+Also learned about type casting, where you can convert one data type into another, e.g. converting an int to a float.
 
 **Resources**
-[CS50 Lecture 2 - Arrays](https://cs50.harvard.edu/x/2020/weeks/2/)
+- [CS50 Lecture 2 - Arrays](https://cs50.harvard.edu/x/2020/weeks/2/)
 ----------------------------------------------------------
 ## January 22, 2020
 **Today's Progress**:
@@ -769,28 +779,31 @@ I had been stumped on how to solve the Mario problem for a few days. After revie
 **Today's Progress**:
 - Continued working on the 'Mario - less comfortable' problem in CS50 Problem Set 1
 
-**Thoughts**: It can be frustrating to break down the steps and know what you want the computer to do but not know how to frame it in the right language. I'll get there though!
+**Thoughts**:
+It can be frustrating to break down the steps and know what you want the computer to do but not know how to frame it in the right language. I'll get there though!
 
 **Resources**
-[CS50 Week 1 - Problem Set 1](https://cs50.harvard.edu/x/2020/psets/1/)
+- [CS50 Week 1 - Problem Set 1](https://cs50.harvard.edu/x/2020/psets/1/)
 ----------------------------------------------------------
 ## January 19, 2020
 **Today's Progress**:
 1. Started working through problem set 1 of CS50 - Trying to output a pyramid of right-aligned hashes of a height determined by user input. 
 
-**Thoughts**: I can output a square of hashes of a certain integer input, but how to get the hashes to decrease by row...that is the question. Going back to my pseudocode!
+**Thoughts**:
+I can output a square of hashes of a certain integer input, but how to get the hashes to decrease by row...that is the question. Going back to my pseudocode!
 
 **Resources**
-[CS50 Week 1 - Problem Set 1](https://cs50.harvard.edu/x/2020/psets/1/)
+- [CS50 Week 1 - Problem Set 1](https://cs50.harvard.edu/x/2020/psets/1/)
 ----------------------------------------------------------
 ## January 18, 2020
 **Today's Progress**:
 1. Studied more basic concepts of C on Sololearn today - Data types and input/outputs.
 
-**Thoughts**: I want to review up to conditionals, loops and functions so I can start on week 1 #cs50 homework!
+**Thoughts**: 
+I want to review up to conditionals, loops and functions so I can start on week 1 #cs50 homework!
 
 **Resources**
-[Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
+- [Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
 ----------------------------------------------------------
 ## January 17, 2020
 **Today's Progress**:
@@ -799,7 +812,7 @@ I had been stumped on how to solve the Mario problem for a few days. After revie
 Mailchimp embedded form on client's site to set up an automation sequence based on which page of the site a client subscribes from.
 
 **Resources**
-[Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
+- [Sololearn C Tutorial](https://www.sololearn.com/Course/C/)
 
 ----------------------------------------------------------
 ## January 16, 2020
@@ -1044,7 +1057,7 @@ Mailchimp embedded form on client's site to set up an automation sequence based 
 ----------------------------------------------------------
 
 ## December 31, 2019 
-- Accepted to the Flatiron Part-Time Online Software Engineering program
+- Accepted to the Flatiron Part-Time Online Software Engineering program (chose not to do the program)
 - Completed the 21 day Career Karma Challenge 
 
 ----------------------------------------------------------
