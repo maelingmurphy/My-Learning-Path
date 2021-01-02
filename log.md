@@ -15,6 +15,7 @@
 ## December 26, 2020
 **Today's Progress**:
 - Completed Day 24 #JavaScriptmas and [published a post linking to all my solutions] (https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n) for the entire Scrimba #JavaScriptmas code challenge on my dev.to blog. 
+
 **Link to work**: 
 https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 
@@ -23,6 +24,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 ## December 23, 2020
 **Today's Progress**:
 - Completed Day 23 #JavaScriptmas - [Social Media Input](https://twitter.com/maelingcodes/status/1341941621336797184?s=20)
+
 **Resources**
 [Text area remaining characters](https://www.mattmorgante.com/technology/textarea-remaining-characters-javascript)
 
@@ -31,6 +33,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 **Today's Progress**:
 - Completed Day 22 #JavaScriptmas - [Extract Matrix Column](https://twitter.com/maelingcodes/status/1341497003625373696?s=20)
 - Studied how to submit API requests with Python 
+
 **Thoughts**: 
 - I understand much more about how to submit API requests with Python. I was able to successfully consume API data from some of the tracking APIs and quickly realized that I won't be able to get tracking data with them unless I used them to create the the tracking number in the first place as a business sending out packages. At least that's what I'm assuming right now since my requests were successful but the response data was empty when I addeded courier name and tracking number as parameters to my GET request. Time to pivot to another project idea. 
 
@@ -44,6 +47,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 **Today's Progress**:
 - CS50 Final Project: Started formulating my idea for my CS50 project. I'm thinking of a site that shows you a list of all your packages with their tracking info all on one page. 
 - Completed Day 21 #JavaScriptmas - [Sum of Two](https://twitter.com/maelingcodes/status/1341190469146034177?s=20)
+
 **Thoughts**: 
 - Learned that you can use the 'requests' library in Python for making API calls 
 - I spent a lot of time trying to figure out how to extract tracking data using 2 different APIs (Tracking More & AfterShip). I feel like I need a better understanding of how to work with APIs so I will find some resources that take me through the process of working with APIs in Python. 
@@ -67,6 +71,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
     - install flask `python3 -m pip install Flask`
     - [initialize Git repository](https://docs.github.com/en/free-pro-team@latest/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
     - run flask app from Terminal export `FLASK_APP=app` `export FLASK_ENV=development` `python3 -m flask run`
+
 **Thoughts**: 
 - I learned that 'NANO' and 'VI' are simple text editors you can access from within the Terminal. 
 - You can create virtual environments within the Terminal (Create Virtual Environment: `python3.7 -m venv my_env` Activate: `source my_env/bin/activate`  Deactivate: `deactivate`)
@@ -101,6 +106,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 **Today's Progress**:
 - Completed Day 16 #JavaScriptmas - [Insert Dashes](https://twitter.com/maelingcodes/status/1339689243376017415?s=20)
 - Completed Day 17 #JavaScriptmas - [Different Symbols Naive](https://twitter.com/maelingcodes/status/1340065065450520576?s=20)
+
 **Thoughts**: 
 - Received this helpful explanation on the different methods for getting elements from the DOM with JS:
 "...The getElementsByClassName() method returns a collection of all elements in the document with the specified class name, as an HTMLCollection object. To use it you need to assign the event listeners such as: next[0].addEventListener. A cleaner way is to use document.querySelector() instead of document.getElementsByClassName(). Since that document.querySelector() returns only one element, which is what you want. The newer querySelector() and querySelectorAll() methods are my go-to methods for DOM access. The were introduced in 2013 in response to the popularity of jQuery at that time." - @galser from Scrimba Discord Chat 
@@ -115,6 +121,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 **Today's Progress**:
 - Finished CS50 Finance Project!!
     - Added the ability for user to add to their cash for the 'personal touch' requirement. 
+
 **Thoughts**: 
 Validating the cash input was an interesting task. I ended up using `replace()` for removing potential commas so I could convert the input to a float. I then used regex to search for periods so I could check using `split()` how many numbers were after the decimal place. I created a new route "/add" to run a function that would update the cash in the database and also reflect the changes in the user's overview table on the front-end. 
 
@@ -130,6 +137,7 @@ Validating the cash input was an interesting task. I ended up using `replace()` 
         - Submit the user’s input via POST to /sell.
     - Complete the implementation of history in such a way that it displays an HTML table summarizing all of a user’s transactions ever, listing row by row each and every buy and every sell.
         - For each row, make clear whether a stock was bought or sold and include the stock’s symbol, the (purchase or sale) price, the number of shares bought or sold, and the date and time at which the transaction occurred.
+
 **Thoughts**: 
 - I was having THE hardest time getting the SQL query output that I desired, which involved getting the sum of total shares for each symbol (positive - BUY & negative - SELL values). Someone in the CS50 discord mentioned using `AS` in a query in response to someone else's question and after further research, I found that I could use it to help with my problem! Using 'AS' in a SQL query allows you to create a column alias. Essentially a column alias is a column that exists only for the duration of the query. I used it to create a column alias called 'shares_total' that consisted of the result from `SUM(shares)` across all my transactions grouped by symbol and matched the logged-in user. Here's my SQL query snippet:
 ```
@@ -219,6 +227,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 ## December 8, 2020
 **Today's Progress**:
 - :christmas_tree: Completed Day 8 #JavaScriptmas [Roll the Dice](https://twitter.com/maelingcodes/status/1336511941892837377?s=20)
+
 **Thoughts**: 
 - I learned that when accessing multiple elements by a common selector with querySelectorAll, you have to loop through all the elements in the list in order to modify its properties (can use a `for...of` loop)
 - When using switch cases, remember to `break;` after each case! 
@@ -236,6 +245,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 **Today's Progress**:
 - :christmas_tree: Finished Day 7 #JavaScriptmas. [Sum all letters in a given string where vowels = 2 and consonants = 1](https://scrimba.com/learn/adventcalendar/note-at-1-00-coc0f4e26a6d2c62ac9f311e1)
 - Watched CS50 video on Flask for dynamically generating web pages 
+
 **Resources**
 [Using array reduce() for more than just numbers](https://jrsinclair.com/articles/2019/functional-js-do-more-with-reduce/)
 
@@ -259,9 +269,11 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 ## December 3, 2020
 **Today's Progress**:
 - Finished and submitted my CS50 Homepage project: Coding Journey Resources!!
-- :christmas_tree: Finished Day 3 of the #JavaScriptmas Challenge. [Split an array into groups the length of the given size and return them as a two-dimensional array](https://scrimba.com/learn/adventcalendar/note-at-0-12-co5204d59a743da52d1c040c3).  
+- :christmas_tree: Finished Day 3 of the #JavaScriptmas Challenge. [Split an array into groups the length of the given size and return them as a two-dimensional array](https://scrimba.com/learn/adventcalendar/note-at-0-12-co5204d59a743da52d1c040c3). 
+
 **Link to work**:
 - [My CS50 Homepage GitHub repo: Coding Journey Resources](https://github.com/maelingmurphy/coding-journey-resources-)
+
 **Resources**
 1. [Centering text horizontally and vertically within a <div>](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block)
 2. [Adding a scroll down anchor button to your website](https://www.solodev.com/blog/web-design/adding-a-scroll-down-anchor-to-your-website.stml)
@@ -285,8 +297,10 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
     - Started learning how to implement jQuery to help with showing/hiding multiple divs based on button clicks (onclick)
 
 - :christmas_tree: Completed Day 1 of Scrimba's #JavaScriptmas 24 day challenge. [Calculate the total number of candies to be shared equally amongst a given number of children, given the number of candies](https://scrimba.com/learn/adventcalendar/-javascript-challenge-candies-introduction-cLkqvpcQ)  
+
 **Thoughts**: 
 - Need to figure out why jQuery onclick() action for navbar dropdown menu item is working after 2nd click and not 1st.
+
 **Resources**
 1. [Using rem in CSS](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
 2. [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
@@ -311,6 +325,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 
 **Link to work**:
 [My project GitHub repo](https://github.com/maelingmurphy/coding-journey-resources-.git)
+
 **Resources**
 1. [Coolors - Website Color Palette Ideas](https://coolors.co/palettes/trending)
 2. [Smooth Scroll Beginner JS Website Project Tutorial](https://www.youtube.com/watch?v=3-2Pj5hxwrw)
@@ -345,6 +360,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 - Finished Pset6 DNA program in CS50:
     - Learned how to access and store CSV header names in a separate list with DictReader fieldnames
     - Learned how to create a regex that would match and return to a list consecutive repeats of a substring
+
 **Thoughts**: 
 I've made more progress on this DNA program today than I have in all the days since I started working on this problem till now. I know for a fact that taking a break from the problem set and doing the freeCodeCamp 'Scientific Computing with Python Certification' curriculum up to the last Regular Expressions module really helped me to have a better understanding of the basics of the Python language.
 
@@ -371,6 +387,7 @@ I've made more progress on this DNA program today than I have in all the days si
 - Downloaded the atom editor: atom.io
 - Ran a small python program from my MacOS terminal window
 - Started freeCodeCamp's 'Python for Everybody' course to help me better understand the basics of Python programming.  
+
 **Thoughts**: 
 - As I'm working through the 'DNA' problem, I realize I need a much better foundational understanding of the csv module and creating dictionaries and accessing their values in Python. Hopefully this will help me in trying to figure out how to pass through the STR values in my program by just reading them in from the fieldnames of the database CSV file, instead of hardcoding them in my program. 
 
@@ -382,6 +399,7 @@ I've made more progress on this DNA program today than I have in all the days si
 ## November 5, 2020
 **Today's Progress**:
 - Continued working on 'DNA' in Problem Set 6 of CS50
+
 **Thoughts**: 
 You can find the headers ("name" and the STRs) in your DictReader's fieldnames attribute
 
@@ -396,6 +414,7 @@ You can find the headers ("name" and the STRs) in your DictReader's fieldnames a
 ## November 4, 2020:
 **Today's Progress**:
 - Working on 'DNA' in Problem Set 6 of CS50
+
 **Thoughts**: 
 - Using Python regex is an option for writing a program to find the longest consecutive substring
 - I may be able to use recursion in this program to count the longest successive substrings 
@@ -434,10 +453,8 @@ python-string-contains/)
 ## September 27, 2020
 **Today's Progress**:
 - Continued watching CS50 Week 6 'Shorts' on Python
-**Thoughts**: 
-**Link to work**:
-**Resources**
 
+----------------------------------------------------------
 ## September 21, 2020
 **Today's Progress**:
 - Continued with CS50 week 6 lecture on Python
@@ -464,17 +481,18 @@ python-string-contains/)
 ## June 28, 2020
 **Today's Progress**:
 - Sucessfully submitted my 'speller' program to conclude week 5 of CS50
+
 **Thoughts**: 
 This problem set really helped me to better understand the use of pointers and how to construct hash tables. I can more clearly see how hash tables can improve insertion and search time when compared to arrays or linked lists on their own. 
+
 **Resources**
-[CS50 Pset 5 'Speller'](https://cs50.harvard.edu/x/2020/psets/5/speller/)
+- [CS50 Pset 5 'Speller'](https://cs50.harvard.edu/x/2020/psets/5/speller/)
 
 ----------------------------------------------------------
 ## June 27, 2020
 **Today's Progress**:
 - Completed the hash function portion of the 'Speller' challenge in pset 5 of CS50
-**Thoughts**: 
-**Link to work**:
+
 **Resources**
 1. [Hash function algorithms](https://www.partow.net/programming/hashfunctions/#AvailableHashFunctions)
 2. More [hash functions](http://www.cse.yorku.ca/~oz/hash.html)
@@ -484,6 +502,7 @@ This problem set really helped me to better understand the use of pointers and h
 **Today's Progress**:
 - Finished 'recover' to complete pset 4 in CS50
 - Successfully submitted my 'recover' program to conclude week 4 of CS50
+
 **Thoughts**:
 This problem set really helped me to understand how to create new files and open/close, read and write to them in C. Understanding what `fread()` returns a function helped me to write conditions that allowed me to read the entire memory card file and start retrieving JPEG data based upon the unique header info JPEGs have in their first 4 bytes.   
 
