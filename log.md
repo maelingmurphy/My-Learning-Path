@@ -3,10 +3,14 @@
 
 # Format
 
-##
+## DATE, 2021
+
 **Today's Progress**:
+
 **Thoughts**: 
+
 **Link to work**:
+
 **Resources**
 
 ----------------------------------------------------------
@@ -14,7 +18,7 @@
 
 ## December 26, 2020
 **Today's Progress**:
-- Completed Day 24 #JavaScriptmas and [published a post linking to all my solutions] (https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n) for the entire Scrimba #JavaScriptmas code challenge on my dev.to blog. 
+- :christmas_tree: Completed Day 24 #JavaScriptmas and [published a post linking to all my solutions] (https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n) for the entire Scrimba #JavaScriptmas code challenge on my dev.to blog. 
 
 **Link to work**: 
 https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
@@ -23,7 +27,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 
 ## December 23, 2020
 **Today's Progress**:
-- Completed Day 23 #JavaScriptmas - [Social Media Input](https://twitter.com/maelingcodes/status/1341941621336797184?s=20)
+- :christmas_tree: Completed Day 23 #JavaScriptmas - [Social Media Input](https://twitter.com/maelingcodes/status/1341941621336797184?s=20)
 
 **Resources**
 [Text area remaining characters](https://www.mattmorgante.com/technology/textarea-remaining-characters-javascript)
@@ -31,7 +35,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 ----------------------------------------------------------
 ## December 22, 2020
 **Today's Progress**:
-- Completed Day 22 #JavaScriptmas - [Extract Matrix Column](https://twitter.com/maelingcodes/status/1341497003625373696?s=20)
+- :christmas_tree: Completed Day 22 #JavaScriptmas - [Extract Matrix Column](https://twitter.com/maelingcodes/status/1341497003625373696?s=20)
 - Studied how to submit API requests with Python 
 
 **Thoughts**: 
@@ -46,7 +50,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 ## December 21, 2020
 **Today's Progress**:
 - CS50 Final Project: Started formulating my idea for my CS50 project. I'm thinking of a site that shows you a list of all your packages with their tracking info all on one page. 
-- Completed Day 21 #JavaScriptmas - [Sum of Two](https://twitter.com/maelingcodes/status/1341190469146034177?s=20)
+- :christmas_tree: Completed Day 21 #JavaScriptmas - [Sum of Two](https://twitter.com/maelingcodes/status/1341190469146034177?s=20)
 
 **Thoughts**: 
 - Learned that you can use the 'requests' library in Python for making API calls 
@@ -62,7 +66,7 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 ----------------------------------------------------------
 ## December 20, 2020
 **Today's Progress**:
-- Completed Day 20 #JavaScriptmas - [Domain Type](https://twitter.com/maelingcodes/status/1340725709426352128?s=20) 
+- :christmas_tree: Completed Day 20 #JavaScriptmas - [Domain Type](https://twitter.com/maelingcodes/status/1340725709426352128?s=20) 
 - Set up Local IDE in preparation for CS50 Final Project 
     - [uninstall homebrew](https://github.com/homebrew/install#uninstall-homebrew) in Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
     - [install homebrew](https://github.com/homebrew/install#uninstall-homebrew) in Terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
@@ -90,22 +94,22 @@ https://dev.to/maelingcodes/a-beginner-s-24-day-journey-with-javascriptmas-83n
 ----------------------------------------------------------
 ## December 19, 2020
 **Today's Progress**:
-- Completed Day 19 #JavaScriptmas [Alphabet Subsequence](https://twitter.com/maelingcodes/status/1340400995269042176?s=20)
+- :christmas_tree: Completed Day 19 #JavaScriptmas [Alphabet Subsequence](https://twitter.com/maelingcodes/status/1340400995269042176?s=20)
 
 
 ----------------------------------------------------------
 ## December 18, 2020
 **Today's Progress**:
-- Completed Day 18 #JavaScriptmas [Array Previous Less](https://twitter.com/maelingcodes/status/1340094740944084994?s=20)
-- Completed Day 15 #Javascriptmas [Carousel](https://twitter.com/maelingcodes/status/1340065065450520576?s=20)
+- :christmas_tree: Completed Day 18 #JavaScriptmas [Array Previous Less](https://twitter.com/maelingcodes/status/1340094740944084994?s=20)
+- :christmas_tree: Completed Day 15 #Javascriptmas [Carousel](https://twitter.com/maelingcodes/status/1340065065450520576?s=20)
 
 
 
 ----------------------------------------------------------
 ## December 17, 2020
 **Today's Progress**:
-- Completed Day 16 #JavaScriptmas - [Insert Dashes](https://twitter.com/maelingcodes/status/1339689243376017415?s=20)
-- Completed Day 17 #JavaScriptmas - [Different Symbols Naive](https://twitter.com/maelingcodes/status/1340065065450520576?s=20)
+- :christmas_tree: Completed Day 16 #JavaScriptmas - [Insert Dashes](https://twitter.com/maelingcodes/status/1339689243376017415?s=20)
+- :christmas_tree: Completed Day 17 #JavaScriptmas - [Different Symbols Naive](https://twitter.com/maelingcodes/status/1340065065450520576?s=20)
 
 **Thoughts**: 
 - Received this helpful explanation on the different methods for getting elements from the DOM with JS:
@@ -129,7 +133,7 @@ Validating the cash input was an interesting task. I ended up using `replace()` 
 ----------------------------------------------------------
 ## December 14, 2020
 **Today's Progress**:
-- Completed Day 14 #JavaScriptmas [Finding max absolute difference between any two adjacent elements in an array](https://twitter.com/maelingcodes/status/1338588808317636611?s=20)
+- :christmas_tree: Completed Day 14 #JavaScriptmas [Finding max absolute difference between any two adjacent elements in an array](https://twitter.com/maelingcodes/status/1338588808317636611?s=20)
 - CS50 Finance Project: Worked on "/sell" and "/history" routes:
     - Completed the implementation of sell in such a way that it enables a user to sell shares of a stock (that he or she owns).
         - Require that a user input a stock’s symbol, implemented as a select menu whose name is symbol. Render an apology if the user fails to select a stock or if (somehow, once submitted) the user does not own any shares of that stock.
@@ -158,7 +162,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 ----------------------------------------------------------
 ## December 13, 2020
 **Today's Progress**:
-- Completed Day 13 #JavaScriptmas [Removing every kth element from an array](https://twitter.com/maelingcodes/status/1338166720196988933?s=20)
+- :christmas_tree: Completed Day 13 #JavaScriptmas [Removing every kth element from an array](https://twitter.com/maelingcodes/status/1338166720196988933?s=20)
 - CS50 Finance Project: Worked on "/index" route:
     - Complete the implementation of index in such a way that it displays an HTML table summarizing, for the user currently logged in, which stocks the user owns, the numbers of shares owned, the CURRENT price of each stock, and the total value of each holding (i.e., shares times CURRENT price)
     - Display the user’s current cash balance along with a grand total (i.e., stocks’ total value plus cash).
@@ -172,7 +176,7 @@ rows = db.execute("SELECT SUM(shares) AS shares_total, symbol, price, stock_name
 ----------------------------------------------------------
 ## December 12, 2020
 **Today's Progress**:
-- Completed Day 12 #JavaScriptmas
+- :christmas_tree: Completed Day 12 #JavaScriptmas
 - CS50 Finance Project: Worked on "/buy" route:
     - Require that a user input a stock’s symbol, implemented as a text field whose name is symbol.
     - Render an apology if the input is blank or the symbol does not exist (as per the return value of lookup).
