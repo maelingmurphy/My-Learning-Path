@@ -14,6 +14,342 @@
 **Resources**
 
 ----------------------------------------------------------
+## March 13, 2021 (Day 57 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed JavaScript Challenges in Module 4 of the Career Path
+- Learned how to build an image carousel with HTML, CSS & vanilla JavaScript
+
+**Link to work**:
+- [Image carousel with vanilla JavaScript](https://codepen.io/maelingcodes/pen/ExNMYjp)
+
+----------------------------------------------------------
+## March 12, 2021 (Day 56 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued JavaScript Challenges in Module 4
+    - Started learning how to build a carousel with HTML, CSS & JS
+
+**Thoughts**: 
+- If we put position: relative; on the parent element, anything inside of it with position: absolute; will be placed absolutely, relative to that containing unit! - csstricks.com
+- You can use the CSS `transform: translateY();` property to get perefect vertical alignment of elements when positioning. This was useful to use when vertically aligning the buttons after using the `top` property to position the buttons on top of the image 
+
+----------------------------------------------------------
+## March 11, 2021 (Day 55 #100DaysOfCode)
+
+**Today's Progress**:
+- Purchased domain name on namecheap.com for my portfolio/blog site! - maeling.dev
+- Continued JavaScript Challenges in Module 4: Created a search bar for a list of items and used the `startsWith()` method and `keyup` event in JS to display items that match the query as you type and hide all non-matches. 
+
+**Thoughts**: 
+- I started building the search to find matches in the list using the `includes` method, but realized when I was searching for apples, both apples and pineapples were listed as matches, since technically they both include 'apples'. To be more specific with the match, I decided to go with the `startsWith` method. 
+
+**Link to work**:
+- [Search Bar - startsWith() method](https://codepen.io/maelingcodes/pen/BaQveLW)
+
+**Resources**
+- [startsWith() method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith)
+
+----------------------------------------------------------
+## March 10, 2021 (Day 54 #100DaysOfCode)
+
+**Today's Progress**:
+- Started JavaScript challenges section in Module 4 and started learning how to build a modal
+
+----------------------------------------------------------
+## March 9, 2021 (Day 53 #100DaysOfCode)
+
+**Today's Progress**:
+- Spent some practicing how to center an element horizontally and vertically on a screen using flexbox (see codepen link below)
+
+**Thoughts**: 
+- Images are inline elements. You can use `text-align: center` to center an image within a `div` element 
+- It's good practice to apply focus states whenever applying hover states in CSS 
+
+**Link to work**:
+- [CodePen: Centering an element on the screen vertically & horizontally](https://codepen.io/maelingcodes/pen/KKNrqzK)
+
+----------------------------------------------------------
+## March 8, 2021 (Day 52 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed CSS Fundamentals section in Module 4 
+    - Specificity of selectors: element < class < id
+    - Compound selectors
+    - Font-related properties & how to use Google Fonts
+    - Inheritance 
+- Practiced recreating a layout from a provided image using HTML & CSS
+
+----------------------------------------------------------
+
+## March 7, 2021 (Day 51 #100DaysOfCode)
+
+**Today's Progress**:
+- After studying more CSS Fundamentals, I went back to one of my static site projects (Coding Journey Resources) from a few months ago & revamped the HTML structure & CSS styling with my new understanding! It's looking so much better now & I have a more fluid layout.
+
+----------------------------------------------------------
+## March 6, 2021 (Day 50 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued CSS Fundamentals section in Module 4 (Scrimba FE Career Path)
+
+----------------------------------------------------------
+## March 5, 2021 (Day 49 #100DaysOfCode)
+
+**Today's Progress**:
+- Started Module 4 (CSS & JavaScript Fundametals) on the Scrimba FE Career Path. Started the CSS Fundamentals Section with Kevin Powell. 
+
+**Thoughts**: 
+- Margin collapsing: If an element has a margin-bottom of 50px & another element under it has a margin-top of 50px, the space between them will be 50px and NOT 100px. Doesn't apply to flexbox/grid layouts. If a child element has a margin-top, it can merge with the parent's margin-top setting, even if parent has no margin value set. This can be fixed by adding padding on the parent to prevent the parent's margin from merging with the child's. In order to better understand this behavior, I made a [CodePen](https://codepen.io/maelingcodes/pen/jOVpgxQ).
+
+----------------------------------------------------------
+## March 3, 2021 (Day 48 #100DaysOfCode)
+
+**Today's Progress**:
+- Created my first quiz web app with HTML, CSS & vanilla JavaScript! It's a short quiz on commonly used JavaScript methods when dealing with arrays. 
+
+**Link to work**:
+[JavaScript Methods Quiz](https://maelingmurphy.github.io/javascript-quiz/)
+
+----------------------------------------------------------
+
+## March 2, 2021 (Day 47 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed 'Build a diary app' section in Module 3
+    - Accessing elements from the DOM: `document.querySelector`, `document.querySelectorAll`, `document.getElementById`, `document.getElementsByClassName`
+    - Creating new DOM elements: `document.createElement()`
+    - Appending elements to the DOM: `appendChild()`
+    - Using event listeners: `addEventListener`
+- Completed Module 3 of Scrimba's Frontend Development Career Path
+**Thoughts**: 
+- I learned that you can access a global variable declared in a js file in a separate js file as long as the files have been loaded 
+**Link to work**:
+
+**Resources**
+1. [JavaScript quiz made by Scrimba community member (Palak)]()https://scrimba.com/scrim/co79a429ba5477f130defdcc7
+2. [Access variables from another file](https://stackoverflow.com/questions/3244361/can-i-access-variables-from-another-file)
+
+----------------------------------------------------------
+## March 1, 2021 (Day 46 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Build a diary app' section in Module 3
+
+----------------------------------------------------------
+## February 28, 2021 (Day 45 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished 'Your personality in emojis' section in Module 3
+- Started work on Scrimba's weekly web dev challenge: Building a quiz (HTML, CSS, JS)
+
+**Thoughts**: 
+This exercise was very helpful in practicing modifying an array using `push()`, `unshift()`, `pop()`, `shift()` and using event listeners
+
+**Link to work**:
+[My Emojis](https://scrimba.com/scrim/co77c4ecca8e218eedeeea94b)
+
+----------------------------------------------------------
+## February 26, 2021 (Day 44 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Intro to the DOM':
+    - Modifying elements
+        - Text: `innerHTML` and `textContent` properties 
+        - CSS styles: `style`
+        - CSS classes: `className` & `classList` properties 
+            - `classList.add`
+            - `classList.remove`
+            - `classList.toggle`
+        - Input values: `value` property
+    - Creating elements
+        - Using `innerHTML` property
+        - Using `createElement()`
+        - Adding elements to parent:
+            - `append()` method
+            - `prepend()` method
+        - Creating elements with a `for` loop
+    - Event listeners 
+        - `addEventListener()`
+        - `removeEventListener()`
+
+**Link to work**:
+[Log & Display Input Values](https://scrimba.com/scrim/cofbc4185a6dab6ac2aa3fc61)
+
+----------------------------------------------------------
+## February 25, 2021 (Day 43 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Intro to the DOM' in Module 3:
+    - Ways to select elements from the DOM:
+        - `getElementById()`
+        - `getElementsByClassName()`
+        - `getElementsByTagName()`
+        - `querySelector()`
+        - `querySelectorAll()`
+
+----------------------------------------------------------
+## February 24, 2021 (Day 42 #100DaysOfCode)
+
+**Today's Progress**:
+- Won Scrimba's weekly web dev challenge for my two-way unit converter site!! (https://maelingmurphy.github.io/dog-human-age-converter/)
+- Continued 'Intro to Functions & Methods':
+    - Used `Math.floor()` and `Math.random()` to create a random quote generator
+    - Covered methods:
+        - `slice()`
+        - `push()`
+        - `unshift()`
+        - `pop()`
+        - `shift()`
+- Learned how to use `document.createElement()` and `appendChild()` to create a list of items that are taken from input field values.
+
+**Link to work**:
+1. [Random quote generator](https://codepen.io/maelingcodes/pen/mdOpwga)
+2. [Add items to a list using input field](https://codepen.io/maelingcodes/pen/rNWpjVV)
+
+----------------------------------------------------------
+## February 23, 2021 (Day 41 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished Scrimba's weekly dev challenge - Dog Age to Human Age Unit Converter (link below)
+- Started 'Intro to Functions & Methods' section in Module 3 
+
+**Thoughts**: 
+- This was great practice for working with events, event listeners, string conversions, operations w/ floats, CSS flexbox & media queries. 
+
+**Link to work**:
+- [Dog Age - Human Age Unit Converter](https://maelingmurphy.github.io/dog-human-age-converter/)
+
+**Resources**
+- [Using <span> to create line breaks with CSS](https://stackoverflow.com/questions/2703601/how-to-line-break-from-css-without-using-br)
+
+----------------------------------------------------------
+## February 22, 2021 (Day 40 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished the 'Intro to Loops' section in Module 3 
+- Worked on Scrimba's weekly web dev challenge creating a dog age- human age converter:
+    - Function:
+        - parseFloat() - parses an argument and returns a floating point number
+    - Events:
+        - keyup event - input (type = number)
+        - change event - select dropdown
+    - Methods
+        - toString() - converts integer to a string
+        - toFixed() - converts 
+
+**Thoughts**:
+- Worked on the logic in JS for a 2-way unit converter based on what pops up when you try to convert units via Google search. The logic ended up being a bit more complicated than I had assumed but it's functioning! Now how to refactor this lengthy code!
+
+**Resources**
+- [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)
+- [toFixed()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed)
+- [toString() method]()
+- [keyup event]()
+- [change event]()
+
+
+----------------------------------------------------------
+## February 20, 2021 (Day 39 #100DaysOfCode)
+
+**Today's Progress**:
+- Installed node and npm: https://nodejs.org/en/download/
+    - check node version: `node -v`
+    - check npm version: `npm -v`
+- Got the CodeRunner extension running in VSCode so I can now run my .js files and access the output in the console
+- Used JavaScript, HTML & CSS to build a pacman-style board in Scrimba Module 3 lesson
+
+**Thoughts**:
+- Got some practice with the classList method, which I used to add different classes to HTML elements for styling in CSS based on logic. Used classes to create the walls, pac-dots, pacman & ghosts!
+
+**Link to Work**:
+[Pacman board with HTML, CSS & JS](https://scrimba.com/scrim/cod9e43989f6e6e1f87bdb92c)
+
+
+----------------------------------------------------------
+## February 19, 2021 (Day 38 #100DaysOfCode)
+
+**Today's Progress**:
+- Installed code runner for Visual Studio Code to be able to see console output from JavaScript code (Doesn't work because I don't have node and npm installed - in progress)
+- Worked on Module 3 of Scrimba's Front-End Developer Career Path
+    - Completed 'Your first interactive website'
+    - Completed 'Intro to JavaScript'
+
+**Thoughts**:
+- Enjoyed learning about these concepts in JavaScript
+    - variables
+    - primitive & complex data types
+    - objects
+    - comparison operators
+- Practiced declaring an object & accessing its properties via dot notation & bracket notation
+
+**Resources**
+1. [JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
+2. [How to view JavaScript output in VSCode](https://www.youtube.com/watch?v=X_TVF96Kqcw)
+
+----------------------------------------------------------
+## February 18, 2021 (Day 37 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed Module 2 of Scrimba's Front-End Developer Career Path
+- Started Module 3 - Making Websites interactive 
+
+**Thoughts**: 
+- I really enjoyed learning how to use flexbox to create layouts with columns.When you add `display:flex` to a parent element, its direct children become flex items/columns. The parent element becomes the flex container. 
+
+**Link to work**:
+- [Scrimba's HTML & CSS Challenge - my scrim](https://scrimba.com/scrim/co2cf47f796f01c91d8b71830)
+
+----------------------------------------------------------
+## February 17, 2021 (Day 36 #100DaysofCode)
+
+### Container Gardening Site - [Link to repo](https://github.com/maelingmurphy/Container-Gardening-Site)
+**Today's Progress**:
+- Used flexbox to style header. Set `display:flex` on parent header element and then set `display:flex` on nav element so menu items would line up horizontally. I then adjusted the `padding-left` property on the nav menu items to get appropriate spacing.
+
+**Thoughts**: 
+- Learned about the `list-style-position` CSS property that is used for styling lists. It sets the position of the marker relative to a list (marker for unordered list = bullet(default), marker for ordered list(numbers)). You can set it to `outside` (default) and `inside`.
+
+**Link to Work**:
+[Container Gardening Site](https://maelingmurphy.github.io/Container-Gardening-Site/)
+
+**Resources**
+ - [list-style-position property for styling lists](https://stackoverflow.com/questions/11556493/second-line-in-li-starts-under-the-bullet-after-css-reset/11556534)
+
+----------------------------------------------------------
+
+## February 16, 2021 (Day 35 #100DaysofCode)
+
+### Container Gardening Site - [Link to repo](https://github.com/maelingmurphy/Container-Gardening-Site)
+**Today's Progress**:
+- Started working on basic HTML structure for site with incorporation of CSS flexbox for the layout
+- Changed default branch from master to main
+
+**Thoughts**: 
+- I learned the importance of having to reset browser CSS styles as I was trying to figure out why I was seeing spaces between my block level elements. I'm glad I had a background color applied to them so I could see the spaces that were there due to browswer CSS properties. 
+
+**Resources**
+1. [Controlling ratios of flex items along the main axis](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax)
+2. [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+3. [CSS Tools: Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
+4. [5 steps to change GitHub default branch from master to main](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
+
+----------------------------------------------------------
+
+## February 14, 2021 (Day 34 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed Scrimba's Weekly Dev Challenge and made a hover flip card with HTML & CSS. Used CSS concepts:
+    - Pseudo-elements
+    - Transform properties 
+    - Positioning
+    - Flexbox
+
+**Link to work**:
+- [Valentine's Day Hover Flip Card](https://scrimba.com/scrim/cof6b4a88beeb7d3943d95e27)
+
+
+----------------------------------------------------------
 # 2020
 
 ## December 26, 2020
