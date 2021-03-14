@@ -876,6 +876,7 @@ sqlite> SELECT * FROM <table>;
 4. [Adding input elements dynamically to form](https://stackoverflow.com/questions/14853779/adding-input-elements-dynamically-to-form#:~:text=If%20you%20want%20to%20dynamically,of%20them%20to%20the%20container.)
 5. [Input text object properties](https://www.w3schools.com/jsref/dom_obj_text.asp)
 6. [Dynamic Fields WTForms](https://www.rmedgar.com/blog/dynamic-fields-flask-wtf/)
+
 ----------------------------------------------------------
 ## January 14, 2021 (Day 7 #100DaysOfCode)
 
