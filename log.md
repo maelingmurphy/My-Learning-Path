@@ -124,9 +124,9 @@
     - Appending elements to the DOM: `appendChild()`
     - Using event listeners: `addEventListener`
 - Completed Module 3 of Scrimba's Frontend Development Career Path
+
 **Thoughts**: 
 - I learned that you can access a global variable declared in a js file in a separate js file as long as the files have been loaded 
-**Link to work**:
 
 **Resources**
 1. [JavaScript quiz made by Scrimba community member (Palak)]()https://scrimba.com/scrim/co79a429ba5477f130defdcc7
