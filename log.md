@@ -871,13 +871,14 @@ sqlite> SELECT * FROM <table>;
 
 **Resources**
 1. [Dynamically adding HTML form fields based on user's input](https://stackoverflow.com/questions/31988183/dynamically-adding-html-form-fields-based-on-a-number-specified-by-the-user)
-2. [Event Listeners on <select> elements - 1 choice example](https://stackoverflow.com/questions/24875414/addeventlistener-change-and-option-selection)
+2. [Event Listeners on select elements - 1 choice example](https://stackoverflow.com/questions/24875414/addeventlistener-change-and-option-selection)
 3. [Event Listeners - change event](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event)
 4. [Adding input elements dynamically to form](https://stackoverflow.com/questions/14853779/adding-input-elements-dynamically-to-form#:~:text=If%20you%20want%20to%20dynamically,of%20them%20to%20the%20container.)
 5. [Input text object properties](https://www.w3schools.com/jsref/dom_obj_text.asp)
 6. [Dynamic Fields WTForms](https://www.rmedgar.com/blog/dynamic-fields-flask-wtf/)
 
 ----------------------------------------------------------
+
 ## January 14, 2021 (Day 7 #100DaysOfCode)
 
 ### Homeschool Journal Site (Flask Web App) [Link to Repo](https://github.com/maelingmurphy/homeschool-journal)
