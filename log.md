@@ -16,6 +16,276 @@
 ----------------------------------------------------------
 # 2021
 
+## April 8, 2021 (Day 75 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Responsive Design' Module
+    - Media queries
+    - `flex-direction`
+
+**Thoughts**: 
+- When working with `flex-direction: column`, child items are in rows and `justify-content` works vertically to arrange child items and `align-items` works horizontally. 
+- When working with `flex-direction: row` (default), child items are in columns and `justify-content` works horizontally to arrange child items and `align-items` works vertically 
+- `justify-content` always works on the main axis and `align-items` works on the cross-axis
+
+**Link to work**:
+- [CodePen to help with understanding flex-direction & its relationship with justify-content and align-items](https://codepen.io/maelingcodes/pen/OJWOQzY)
+
+----------------------------------------------------------
+
+## April 5, 2021 (Day 74 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Responsive Design Module (Scrimba FE Career Path)
+    - Using `justify-content` (control horizontal alignment) & `align-items` (control vertical alignment) with flexbox
+- Used starter project from sanity to create a gatsby blog site 
+
+----------------------------------------------------------
+
+## April 1, 2021 (Day 73 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Responsive Design Module (Scrimba FE Career Path)
+
+----------------------------------------------------------
+
+## March 30, 2021 (Day 72 #100DaysOfCode)
+
+**Today's Progress**:
+- Reviewed the Sanity and Gatsby CLI commands for working with my project
+
+**Commands to run project**
+
+- Start sanity studio locally: `sanity start` in studio folder : [http://localhost:3333](http://localhost:3333/)
+- Deploy sanity studio: `sanity deploy` in studio folder (Gives https link for sanity studio project)
+    - in order to pull in the data into Gatsby we need it to be hosted somewhere
+- Start gatsby development : `gatsby develop` in web folder. Gives links for:
+    - view gatsby site in the browser: [http://localhost:8000/](http://localhost:8000/)
+    - View GraphiQL, an in-browser IDE, to explore your site's data and schema: [http://localhost:8000/___graphql](http://localhost:8000/___graphql)
+- Redeploy GraphQL API: `sanity graphql deploy`  in studio folder
+    - You should redeploy the GraphQL API every time you make changes to the schema that you want to use in Gatsby by running `sanity graphql deploy` from within your Sanity project directory
+
+**Resources**
+- https://www.frontendstumbles.com/gatsby-and-sanity-cms-tutorial/
+
+----------------------------------------------------------
+
+## March 29, 2021 (Day 71 #100DaysOfCode)
+
+**Today's Progress**:
+- Started Module 5 - Responsive Design (Scrimba FE Career Path)
+- Started making updates to my LinkedIn profile (see helpful resources below)
+
+**Thoughts**: 
+- percentage units are relative to the parent 
+- em units are relative to their parent's font size
+
+**Resources**
+- [Hacking LinkedIn with Taylor Desseyn](https://www.vaco.com/taylor/)
+- [LinkedIn series with Danny Thompson](https://www.youtube.com/watch?v=SG5Sb5WTV_g&list=PL54X5yR8qizsMpvTCqUIEFMeEp-chvcxk&index=1)
+- [Module 5 - Responsive Design (Scrimba)](https://scrimba.com/learn/frontend)
+
+----------------------------------------------------------
+
+## March 27, 2021 (Day 70 #100DaysOfCode)
+
+**Today's Progress**:
+- Day 5 of the Hack the Gap Spring Hackathon
+    - Learned how to interact with elements in a React form and capture its values
+    - Learned how to pass user input from a React form 
+- Hack the Gap Spring Hackathon Demo Day! (**WE WON!**)
+    - I co-presented our team's project (Mobile Market Alerts) today
+    - Our team was awarded 1st place in the hackathon! 
+
+**Thoughts**: 
+I really enjoyed my first hackathon experience. It was an intense but fun and collaborative working experience. The connections and knowledge gained are extremely valuable!
+
+**Link to work**:
+- Our project (not deployed yet):
+    - Frontend: https://github.com/katekuehl/MobileMarketAlerts
+    - Backend: https://github.com/katekuehl/MobileMarketAlerts-Backend
+
+**Resources**:
+- [React form with checkboxes - send data to Flask](https://gist.github.com/arif87/7489b1d36641186c58e79429ad87693a) 
+- [ReactJS: Working with Check Boxes with Class-based components](https://www.youtube.com/watch?v=5MVzaAMiz08)
+- [ReactJS: Handle form and input data](https://www.youtube.com/watch?v=fcMNZ7j4JSg)
+- [Checkboxes - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+----------------------------------------------------------
+
+## March 26, 2021 (Day 69 #100DaysOfCode)
+
+**Today's Progress**:
+- Day 4 of the Hack the Gap Spring Hackathon
+    - Connected the SQlite database to the Flask app
+    - Created the index route for the Flask app
+    - Created database models in `main.py`
+    - Wrote functions that took our service provider data in dictionary form from `data.py` and added it to our database file via Flask SQLAlchemy 
+    - Connected our Flask backend with React frontend 
+
+**Thoughts**:
+Days 3 & 4 of the @HackTheGap #hackathon  have been a whirlwind...in a good way! Enjoying working w/ my team & learning SO MUCH! I've also never had so many stack overflow tabs open at once!!  
+
+**Resources**
+- [Connect Flask with React](https://www.youtube.com/watch?v=YW8VG_U-m48)
+- [Declaring models in Flask](https://flask-sqlalchemy.palletsprojects.com/en/2.x/models/)
+- [Creating a database in Flask](https://flask-sqlalchemy.palletsprojects.com/en/2.x/quickstart/)
+
+
+----------------------------------------------------------
+
+## March 25, 2021 (Day 68 #100DaysOfCode)
+
+**Today's Progress**:
+- Day 3 of the Hack the Gap Spring Hackathon
+    - Continued with designing the database model for our project.
+    - Installed MySQL & MySQL workbench and created my database diagram in MySQL workbench.
+    - Set up Flask backend for our web app
+    - Attempted to connect MySQL database to my Flask app but kept getting errors!
+
+**Thoughts**: 
+- I prefer creating my entity relationship diagram (ERD) in MySQL Workbench over Lucid Chart. It creates the appropriate foreign keys in the tables based on the relationship notations you establish between the tables. 
+- I've decided to switch to SQLite for creating the actual database file to connect to Flask because of the errors I kept getting with MySQL 
+
+**Resources**
+- [Download MySQL](https://www.mysql.com/downloads/)
+- [How to install MySQL](https://www.youtube.com/watch?v=9sbUsbDWTE8)
+- [Archived versions of MySQL - Commmunity Server](https://www.youtube.com/watch?v=9sbUsbDWTE8)
+- [Download MySQL Workbench](https://downloads.mysql.com/archives/workbench/)
+- [How to use MySQL Workbench](https://www.youtube.com/watch?v=ImqxBiv5yIY)
+- [Create foreign key in MySQL using workbench](https://www.youtube.com/watch?v=4JhXRll-jkQ&t=30s)
+- [Adding a foreign key to a table in MySQL workbench](https://dev.mysql.com/doc/workbench/en/wb-table-editor-foreign-keys-tab.html)
+----------------------------------------------------------
+
+## March 24, 2021 (Day 67 #100DaysOfCode)
+
+**Today's Progress**:
+- Day 2 of the Hack the Gap Spring Hackathon
+
+**Thoughts**: 
+We finalized our project idea & have started working on our respective aspects of the project. Did some content research (service providers for food shelves, farmers markets & free meals) along w/ initial database design. Excited to be learning more about back-end development! 
+
+**Resources**
+- [Lucid Chart - for creating entity relationship diagrams](https://www.lucidchart.com/pages/)
+----------------------------------------------------------
+
+## March 23, 2021 (Day 66 #100DaysOfCode)
+
+**Today's Progress**:
+- Day 1 of the Hack the Gap Spring Hackathon! 
+
+**Thoughts**: 
+Met my team members for the HackTheGap hackathon! Conducted background research on our focus of food apartheid and generated some project ideas. Really looking forward to what we can build together. 
+
+**Resources**
+- [Hack the Gap 2021 Virtual Hackathon](https://www.hackthegap.com/hackathons/2021-virtual-hackathon)
+----------------------------------------------------------
+
+## March 22, 2021 (Day 65 #100DaysOfCode)
+
+**Today's Progress**:
+- Finally decided on a stack to test for a blog site:
+    - Sanity - CMS
+    - Gatsby - frontend
+    - Netlify - deployment
+- Following a vid with @jlengstorf & @rexxars and so far have been able to create a new Sanity project & deploy to Sanity Studio. 
+
+**Resources**
+- [Build a Portfolio Site with Sanity.io and Gatsby — Learn With Jason](https://www.youtube.com/watch?v=SLGkyodumKI)
+
+----------------------------------------------------------
+
+## March 21, 2021 (Day 64 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished my snake game customizations & learned so much!
+    - Added ability for a player to select their theme & game speed
+    - Added option for mobile users to play with on-screen controls. 
+
+
+
+**Link to work**:
+- PLAY HERE!: https://maelingmurphy.github.io/the-snake-game/
+
+----------------------------------------------------------
+
+## March 19, 2021 (Day 63 #100DaysOfCode)
+
+**Today's Progress**:
+- Spent a lot of time troubleshooting Right-pointing magnifying glass:
+    - Gutter indicators disappearing in VSCode 
+    - My project sites appearing zoomed in when viewed on mobile due to overflow
+- Continued snake game customization with theme-specific CSS variable values & mobile layout
+
+**Thoughts**: 
+- Font sizes and fixed widths can cause overflow issues when viewed on mobile. Font sizes need to be adjusted for mobile and fixed widths avoided when possible on elements so they will resize as the window is resized OR use a media query to change the size. 
+
+----------------------------------------------------------
+## March 18, 2021 (Day 62 #100DaysOfCode)
+
+**Today's Progress**:
+- Attended Scrimba online community meetup
+- Finished customization of the snake game from Module 4 (Scrimba FE Career Path)
+
+**Thoughts**: 
+
+**Link to work**:
+
+**Resources**
+- [How to easily create themes with CSS variables](https://www.freecodecamp.org/news/how-to-easily-create-themes-with-css-variables-2d0f4cfa5b9a/)
+- [Drawing an apple with CSS](https://scrimba.com/scrim/czpLeqHD)
+- [CSS Fruits](https://codepen.io/munkholm/pen/twuiD)
+- [CSS Drawing - 8 Point Full Control](https://9elements.github.io/fancy-border-radius/full-control.html#100.99.0.80-100.100.0.0-.)
+- [Using CSS custom properties(variables)](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [Dark & Light theme switchers using CSS variables and JS](https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2)
+----------------------------------------------------------
+
+## March 17, 2021 (Day 61 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed Module 4 of the Scrimba FE Career Path
+- Worked on 'Build a Snake Game'
+    - Used event KeyCodes to control snake movement by attaching an event listener to the `document` that listened for `keydown` events 
+    - Used modulus to detect if snake was at grid walls
+    - Used `setInterval()` and `clearInterval()` to invoke a function continuously to keep the snake moving with a set time delay until the interval was cleared 
+    - Used switch cases to set different `intervalTime` values (based on user selection which controls how fast the snake moves on the screen
+    - Used toggle() to switch between hiding and displaying mobile controls by adding and removing the display-controls class name to the related div holding the mobile controls
+
+**Thoughts**: 
+- I'm going to add some game customization features for the user to select before starting the game and also make the game accessible for mobile users. The current game moves the snake using keystrokes, so I will have button keypad on the screen for mobile users in order to have the same functionality for moving the snake. 
+
+**Resources**
+- [JavaScript Event KeyCodes: Site that shows you the keycode for any key you press](https://keycode.info/)
+
+----------------------------------------------------------
+## March 16, 2021 (Day 60 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued w/ my Scrimba course and started 'Build a snake game' in Module 4 with JavaScript
+- Watched an informative discussion about #HeadlessCMS hosted by This Dot Media which is the route I think I want to take when I launch my blog/portfolio site. 
+- Deecided to step outside of my comfort zone & signed up for Local Hack Day: Share & the Hack the Gap Virtual Hackathon!
+
+**Resources**
+
+----------------------------------------------------------
+## March 15, 2021 (Day 59 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished 'Build a dice game' in Module 4 (Scrimba FE Career Path)
+    - Customized the game to include dice faces that were dynamically added via JS/CSS. I was able to incorporate some of what I learned during the #JavaScriptmas challenge on [December 8, 2020](#december-8-2020)! 
+
+**Thoughts**
+- I was able to improve on my #JavaScriptmas logic for making the dice faces by incorporating new concepts I've been learning in JS, like using `document.createElement("span")` in a for loop to create the necessary amount of span elements (for creating the dots), based on the random number that was generated by the player and then using `classList.add` to add the appropriate class to the new element for styling in CSS. 
+
+----------------------------------------------------------
+
+## March 14, 2021 (Day 58 #100DaysOfCode)
+
+**Today's Progress**:
+- Started the 'Build a dice game' section in Module 4 (Scrimba FE Career Path)
+    - Learned how to use Math.floor() & Math.random() methods to generate a number between 1 & 6, inclusive: 
+    `let randomNumber = Math.floor(Math.random() * 6) + 1;`
+
+----------------------------------------------------------
 ## March 13, 2021 (Day 57 #100DaysOfCode)
 
 **Today's Progress**:
