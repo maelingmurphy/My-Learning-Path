@@ -16,10 +16,146 @@
 ----------------------------------------------------------
 # 2021
 
+## April 17, 2021
+
+**Today's Progress**:
+- Worked on Scrimba's weekly web dev challenge - build a form 
+    - CSS properties:
+        - `animation` shorthand property
+        - `transform` 
+    - `aria-label` for accessibility with form input fields without `<label>`
+
+**Thoughts**: 
+- It was interesting to learn that you can create a responsive CSS illustration and animation by setting the size variables using a responsive unit like `em`. That way, the sizing can be controlled by the size of the parent element. 
+
+**Link to work**:
+- [My responsive form with animation](https://scrimba.com/scrim/cob634597988cbd75429bb420)
+
+**Resources**
+- [Basic form hints & accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/forms/Basic_form_hints)
+- [Your first form - MDN Web Docs Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
+- [Paperplane drawing & animation - HTML/CSS](https://lenadesign.org/2020/04/21/css-paper-plane-animation/)
+- [`animation` shorthand property](https://developer.mozilla.org/en-US/docs/Web/CSS/animation)
+----------------------------------------------------------
+
+## April 16, 2021 (Day 82 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Responsive Design challenges section in Responsive Design module (Scrimba FE Career Path)
+    - Responsive nav bar
+    - Responsive call-to-action (CTA) page 
+    - CSS Stairs
+        - `align-self` flexbox/grid property
+    - Flashing boxes
+        - complex media queries 
+
+**Thoughts**: 
+- In flexbox, `align-self` aligns the flex-item on the cross axis (values: `stretch`, `center`, `flex-start`, `flex-end`)
+- Using `letter-spacing` to stretch text also adds spacing after the last letter which can sometimes mess with your alignment. To remove this extra spacing, you can add a `margin-right` with a negative value equal to the value used for the letter-spacing.
+
+**Link to work**:
+
+**Resources**
+- [`align-self` CSS property - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
+- [Using media queries - combining multiple queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+- [Remove letter-spacing from last letter using negative margin right](https://iamsteve.me/blog/entry/remove-letter-spacing-from-last-letter)
+
+----------------------------------------------------------
+
+## April 15, 2021 (Day 81 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Responsive Design challenges section in Responsive Design module (Scrimba FE Career Path)
+    - Responsive blog posts page
+
+**Thoughts**: 
+- You can use `flex-flow` to set `flex-direction` & `flex-wrap` in a single property
+
+----------------------------------------------------------
+
+## April 14, 2021 (Day 80 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed 'Starting to think responsively' section in Responsive Design module (Scrimba FE Career Path)
+    - `:last-child` pseudoselector
+    - The viewport meta tag 
+- Started Responsive Design challenges section in Responsive Design module (Scrimba FE Career Path)
+    - Responsive Image Collage
+        - `box-sizing` property
+        - `flex-wrap` flexbox property 
+
+**Thoughts/Notes**: 
+- The `:last-child` selector matches every element that is the last child of its parent. (w3schools.com)
+- The `box-sizing` property sets how the total width and height of an element is calculated. By default in the CSS box model, the width and height you assign to an element is applied only to the element's content box. If the element has any border or padding, this is then added to the width and height to arrive at the size of the box that's rendered on the screen (MDN Web Docs)[https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing]
+    - `border-box`: tells the browser to account for any border and padding in the values you specify for an element's width and height.
+    - `content-box`: gives the default CSS box-sizing behavior. If you set an element's width to 100 pixels, then the element's content box will be 100 pixels wide, and the width of any border or padding will be added to the final rendered width, making the element wider than 100px
+
+**Link to work**:
+- [Responsive image collage - CodePen ](https://codepen.io/maelingcodes/pen/qBRYyVX)
+
+**Resources**
+- [`flex-wrap` - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+----------------------------------------------------------
+
+## April 13, 2021 (Day 79 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Responsive Design' Module (Scrimba FE career path
+    - Reordering elements using flexbox with the `order` property 
+    - Using `object-fit` for cropping images 
+        - `cover` : helps keep the proportions if the image ratio has been changed with `width` and `height` properties. Useful for cropping an image 
+    - Converting px to rem:
+        - 16px = 1 rem. Taking any `px` value and dividing it by 16 will give you the size in `rem`. 
+
+**Thoughts**: 
+- With the `order` property, items in a parent container with `display: flex` are sorted by ascending order value and then by their source code order.
+
+**Resources**
+- [px to rem converter](https://nekocalc.com/px-to-rem-converter)
+- [ordering flex items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items)
+- [`object-fit` property](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+----------------------------------------------------------
+
+## April 12, 2021 (Day 78 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Responsive Design' Module (Scrimba FE career path)
+    - Started styling 'Living the simple life' mock site with CSS 
+     
+**Thoughts**: 
+- Learned about using the mobile-first approach when styling a site with CSS. Using `min-width` in a media query allows for the large screen styles within the query to only be applied once the screen grows to reach the specified size or larger.
+
+----------------------------------------------------------
+
+## April 10, 2021 (Day 77 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Responsive Design' Module (Scrimba FE career path)
+    - Continued HTML markup for 'Living the simple life' mock site 
+**Thoughts**: 
+- Good review of using semantic HTML elements in the markup:
+    - header
+    - nav
+    - main
+    - article
+    - aside 
+- Learned to pay attention to hierarchy of elements when creating the HTML structure as CSS can be used to change the visual order later. Structural hierarchy is especially important for those using screen readers & other assistive technologies.
+
+----------------------------------------------------------
+
+## April 9, 2021 (Day 76 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Responsive Design' Module (Scrimba FE career path)
+    - Building a responsive navigation bar
+    - Creating the HTML markup for site using AdobeXD design file as reference
+
+----------------------------------------------------------
+
 ## April 8, 2021 (Day 75 #100DaysOfCode)
 
 **Today's Progress**:
-- Continued 'Responsive Design' Module
+- Continued 'Responsive Design' Module (Scrimba FE career path)
     - Media queries
     - `flex-direction`
 
