@@ -16,7 +16,311 @@
 ----------------------------------------------------------
 # 2021
 
-## April 17, 2021
+## DATE, 2021
+
+**Today's Progress**:
+
+**Thoughts**: 
+
+**Link to work**:
+
+**Resources**
+
+----------------------------------------------------------
+
+## May 18, 2021 (Day 100 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Added styling to 'scared-ghosts'
+    - Added logic for Pac-Man eating scared ghost
+
+----------------------------------------------------------
+
+## May 16, 2021 
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Added logic for pacman eating power pellets (score update, ghost state change)
+    - Used `setTimeout()` and `forEach()` methods to change ghost states (scared/regular)
+   
+----------------------------------------------------------
+
+## May 14, 2021 (Day 99 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    -  `forEach()` to add the ghosts to the grid from array
+    - `setInterval()` & `clearInterval()` for creating the function to move the ghosts 
+        - added logic to make sure ghosts don't run into each other or the wall
+
+
+**Thoughts/Notes**: 
+- The global NaN property is a value representing Not-A-Number.
+
+**Link to work**:
+
+**Resources**
+- [`forEach()` - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+----------------------------------------------------------
+
+## May 13, 2021 (Day 98 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Researched how to format long control statements 
+    - Updated the Pac-Man control function to avoid passing through walls, grid boundaries & ghost lair using `classList.contains()`
+    - Created function for eating of pac-dots & score update
+    - Created ghost Class w/ a constructor
+
+**Resources**
+- [Formatting long control statements - airbnb guide](https://github.com/airbnb/javascript/commit/2ab0e618582f5b64e406fe81fb5c9540b3be9824)
+----------------------------------------------------------
+
+## May 12, 2021 (Day 97 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Create control function that implements different logic based on what keys are being pressed using `KeyboardEvent.key` and a switch statement. 
+
+**Resources**
+- [`KeyboardEvent.key` - MDN](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key)
+- [Navigation key values for `KeyboardEvent.key`](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values#navigation_keys)
+
+----------------------------------------------------------
+
+## May 11, 2021 (Day 96 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Used a variety of JS methods to create and style the squares on the game board/grid:
+        - `createElement`
+        - `appendChild`
+        - `classList.add()`
+
+----------------------------------------------------------
+
+## May 10, 2021 (Day 95 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed 'JavaScript Challenges' in Module 6 - Next-level JavaScript (Scrimba FE Career Path)
+    - Return largest positive integer possible for digit count
+    - Given a divisor and a bound, find the largest integer N such that N is divisible by divisor, N is less than or equal to bound, N is greater than 0
+- Started Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+
+**Resources**
+- [`repeat()` string method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
+----------------------------------------------------------
+
+## May 7, 2021 (Day 94 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'JavaScript Challenges' in Module 6 - Next-level JavaScript (Scrimba FE Career Path)
+    - Given an array of integers, replace all the occurrences of a specified value with another given value
+    - Check if a given string is a case-insensitive palindrome 
+    - Given a string, enclose it in round brackets
+    - Return the factorial of a given integer
+    - Find the leftmost digit that occurs in a given string
+    
+----------------------------------------------------------
+## May 6, 2021 (Day 93 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - Working with `Sets`
+        - `add()`
+        - `delete()`
+        - `clear()`
+        - `has()`
+        - Iterating `Sets`
+
+**Resources**
+- [`Set` object - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+
+----------------------------------------------------------
+
+## May 5, 2021 (Day 92 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - `fetch()` method
+    - `async` & `await`
+
+**Thoughts/Note**: 
+- Because `fetch()` returns a promise, you can use it with `async`/`await` syntax
+
+**Link to work**:
+
+**Resources**
+- [jsonplaceholder - RESTFul API Guide](https://jsonplaceholder.typicode.com/guide/)
+- [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+- [Using `fetch()`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [`async` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [`await` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+- [How to use Fetch with `async` & `await`](https://dmitripavlutin.com/javascript-fetch-async-await/)
+----------------------------------------------------------
+
+## May 3, 2021 (Day 91 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - `import` & `export`: allow you to create variables in one .js file and export them to another .js file. The other .js file imports the variable into the file so it can be worked with. 
+    - `padStart()` & `padEnd()`: methods used to apply padding to the beginning/end of a string with a given string until it reaches a certain length 
+    - Creating and working with classes 
+        - `constructor`: method of a class for creating and initializing an object of that class 
+        - `this` keyword in class context
+        - `getter`: binds an object property to a function that will be called when that property is looked up.
+        - `static` keyword: defines a static method or property for a class. Neither static methods nor static properties can be called on instances of the class. Instead, they're called on the class itself.
+        - Creating new classes that extend an existing class
+            - `super()` : used to access and call functions on an object's parent
+    - trailing commas 
+    - Promises 
+        - asynchronous operations
+
+**Resources**
+- [`padStart()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
+- [`padEnd()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd)
+- [`constructor` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+- [`getter` - `get` syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
+- [`static` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+- [`class`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class)
+- [`this` keyword - class context](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this#class_context)
+- [`super` keyword - using `super` in classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super#using_super_in_classes)
+- [trailing commas](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas)
+- [`Promise` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [Using `Promises`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+- [asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing)
+- [General asynchronous programming concepts](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Concepts)
+
+----------------------------------------------------------
+
+## April 27, 2021 (Day 90 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - Default params - can be used to set default parameters for a function so if no value is passed in the function, the default value is used 
+    - `includes()` - a method that determines whether an array includes a certain value by returning a Boolean value (`true` or `false`)
+    - variable hoisting
+    - `var`, `let` & `const` variables
+
+**Resources**
+- [`includes()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+- [Using default parameters in ES6 - CSS-Tricks](https://css-tricks.com/using-default-parameters-es6/)
+- [Hoisting - MDN](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [`var`, `let`, `const` - What's the difference](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+
+----------------------------------------------------------
+
+
+## April 26, 2021 (Day 89 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - spread syntax `(...)`
+    - rest parameter syntax `(...)`: allows a function to accept an indefinite number of arguments as an array
+    - arrow function expressions
+
+**Resources**
+- [Spread syntax `(...)`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [Rest parameter syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
+- [Arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+----------------------------------------------------------
+
+## April 23, 2021 (Day 88 #100DaysOfCode)
+
+**Today's Progress**:
+- Started Module 6 - Next-level JavaScript with Introduction to ES6+ section (Scrimba FE Career Path)
+    - Using template literals: strings that can have JS variables within them, enclosed by backticks
+    - Destructuring objects & arrays 
+    - Object literals
+    - `for...of` statement
+
+**Thoughts**: 
+- It's interesting how you can control the formatting of the HTML output of JS variables, by controlling their formatting within a template literal. If you have a space between 2 variables within the template literal, that space will show up on the HTML output. If the variables in the template literal are separated onto 2 lines, the HTML output will also show a multi-line string. 
+
+**Resources**
+- [Template literals(template strings)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- [Object destructuring - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring)
+- [Array destructuring - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#array_destructuring)
+- [Object literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#object_literals)
+- [`for...of` loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
+
+----------------------------------------------------------
+
+## April 21, 2021 (Day 87 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Stepping up our style' section in Responsive Design module (Scrimba FE Career Path)
+    - gradients 
+    - `transition`
+    - `transform`
+    - `border-image`
+    - `background-blend-mode`
+
+- Started 'Making the BBQ page interactive' section in Responsive Design module (Scrimba FE Career Path)
+    - `FormData` interface (useful for interacting with form data using JavaScript)
+        - `FormData()` creates a new FormData object 
+        - `FormData` has several methods that allow you to interact with data in the form 
+
+- Finished Module 5 - Responsive Design 
+
+**Thoughts/Notes**: 
+- If you're trying to make a pill shape with `border-radius`, you need to set its value to one that is greater than the element's total height
+- When you have a transition that should appear on a hover state, you don't want to apply the transition to the hover/focus selector because then the transition will only appear when you hover on the element, but will then SNAP back to the original state when you're not hovering on the button. Instead, you want to apply the transition property to the regular element selector. That way the transition will occur when you hover/focus on the element and when you move away from the element. I made these changes to my animated form I built for Scrimba's web dev challenge on 4/17.
+
+**Link to work**:
+[Animated form](https://scrimba.com/scrim/cob634597988cbd75429bb420)
+
+**Resources**
+1. [`FormData` interface - working with data in forms](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
+
+----------------------------------------------------------
+
+## April 20, 2021 (Day 86 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Stepping up our style' section in Responsive Design module (Scrimba FE Career Path)
+    - `box-sizing`
+    - forms 
+        - Using `inherit` for text properties on `<input>` elements. Text properties are NOT inherited with forms. 
+    - attribute selectors 
+
+----------------------------------------------------------
+
+## April 19, 2021 (Day 85 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Stepping up our style' section in Responsive Design module (Scrimba FE Career Path)
+    - Using `rgba()`
+    - `background-image` and related properties:
+        - `background-size`
+        - `background-position`
+    - CSS combinator selectors (adjacent(`+`) & general(`~`)) 
+    - Viewport units 
+        - `vw` - viewport width
+        - `vh` - viewport height
+        - `vmin` - viewport minimum
+        - `vmax` - viewport maximum
+
+**Thoughts**: 
+- It is suggested to use a background image vs a regular image if an element will be on top of the image. Syntax: `background-image: url(folder/filename.jpg)`
+- When using flexbox, margins don't collapse 
+
+
+----------------------------------------------------------
+
+## April 18, 2021 (Day 84 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Stepping up our style' section in Responsive Design module (Scrimba FE Career Path)
+    - `line-height`
+    - `text-transform`
+    - `letter-spacing`
+
+----------------------------------------------------------
+
+## April 17, 2021 (Day 83 #100DaysOfCode)
 
 **Today's Progress**:
 - Worked on Scrimba's weekly web dev challenge - build a form 
@@ -121,7 +425,7 @@
 **Today's Progress**:
 - Continued 'Responsive Design' Module (Scrimba FE career path)
     - Started styling 'Living the simple life' mock site with CSS 
-     
+
 **Thoughts**: 
 - Learned about using the mobile-first approach when styling a site with CSS. Using `min-width` in a media query allows for the large screen styles within the query to only be applied once the screen grows to reach the specified size or larger.
 
