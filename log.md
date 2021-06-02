@@ -16,6 +16,160 @@
 ----------------------------------------------------------
 
 
+# 2021
+
+## June 2, 2021 (R2 Day 1 #100DaysOfCode)
+
+**Today's Progress**:
+- Watched Scrimba livestream on 'How to Use GitHub'
+    - cloning a remote repo
+    - working with branches and forked repo copies
+    - merging branches
+    - pulling updates from main branch 
+    - initializing a new local repo (`git init`)
+- Started 'Functions' section in Scrimba's 'JavaScript' Bootcamp course
+    - Declaring functions in JS
+    - variable and argument scope within functions
+    - Passing values from within function to outer scope using `return`
+    - Using closure to preserve values between function calls 
+- Worked on FrontEnd Mentor challenge
+    - Learned that you can't modify SVG images with CSS if they are referenced with an `<img>` tag. You must use inline SVG if you want to be able to modify styles with CSS. 
+
+**Resources**
+- [How to use GitHub - Scrimba livestream](https://www.youtube.com/watch?v=DF_vp2kE2WY)
+- [Functions - The JavaScript Bootcamp (Scrimba)](https://scrimba.com/playlist/pVLDVUE)
+- [Adding vector graphics to the web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
+- [SVG - Web Accessibility Guidelines](http://web-accessibility.carnegiemuseums.org/code/svg/)
+----------------------------------------------------------
+
+## June 1, 2021
+
+**Today's Progress**:
+- Finished 'Simple landing page' in 'Figma to Code' course on Scrimba
+    - Using CSS `grid` to create columns
+
+----------------------------------------------------------
+
+## May 29, 2021
+
+**Today's Progress**:
+- Worked on Frontend Mentor challenge (payAPI)
+- Started 'Simple landing page' in 'Figma to Code' course on Scrimba
+
+**Resources**
+- [Creative SVG backgrounds for modern web design](https://www.youtube.com/watch?v=OjIxscGV-Qg)
+
+----------------------------------------------------------
+
+## May 28, 2021
+
+**Today's Progress**:
+- Finished 'Simple card layout' in Figma to Code course on Scrimba 
+
+**Thoughts/Notes**: 
+- Centering elements using CSS grid: The place-items property in CSS is shorthand for the align-items and justify-items properties, combining them into a single declaration. (css-tricks.com)
+
+**Resources**
+- [CSS grid: `place-items`](https://css-tricks.com/almanac/properties/p/place-items/)
+
+----------------------------------------------------------
+
+## May 26, 2021
+
+**Today's Progress**:
+- Worked on Frontend Mentor challenge with fellow Scrimba student
+
+**Thoughts/Notes**: 
+- Pathname Syntax 
+    - .(a single dot) - this represents the current directory.
+    - ..(two dots) - this represents the parent directory. 
+
+**Resources**
+- [Absolute and Relative Path Names](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/)
+
+----------------------------------------------------------
+
+## May 25, 2021
+
+**Today's Progress**:
+- Worked on Frontend Mentor challenge with fellow Scrimba student (Mareike)
+    - Learned the git flow for cloning a repo, working in branches and merging them to main
+    - Outlined project tasks on monday.com
+- Continued 'JavaScript Bootcamp' with Reed Barger on Scrimba 
+    - Completed Section 2: Types & Conditionals 
+- Started 'Figma to Code' course on Scrimba
+    - Simple card layout
+
+
+**Link to work**:
+- [Frontend Mentor Challenge - payAPI](https://github.com/MareikeW/payAPI-multipage-website)
+
+
+----------------------------------------------------------
+
+
+## May 24, 2021
+
+**Today's Progress**:
+- Continued 'JavaScript Bootcamp' with Reed Barger on Scrimba 
+    - Started Section 2: Types & Conditionals 
+        - Conditionally running JS code - flow control statements: 
+            - `if` statements
+            - comparisons with strict equality operator & switch statements
+        - Data types in JS & how they can be changed
+            - `typeof` to check data type of variable
+            - converting data types (explicit & implicit conversions)
+            - conversion of data types in conditionals - converted to boolean
+            - truthy & falsy values 
+
+----------------------------------------------------------
+
+## May 23, 2021
+
+**Today's Progress**:
+- Continued 'JavaScript Bootcamp' with Reed Barger on Scrimba 
+    - template literals and string interpolation 
+    - working with single & double quotes within strings 
+        - combine use of single & double quotes within the string
+        - use the escape character (`/`)
+        - use template literals to avoid the issue altogether 
+    - making multiline strings
+        - use newline character (`\n`)
+        - use carriage return (`\r`)
+    - naming variables 
+        - case-sensitive
+        - make it meaningful!
+        - use camelCase
+        - conventions that help other developers recognize data types for Boolean variables & values that should not be changed 
+
+**Resources**
+- [Template strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+- [Escape sequences](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#escape_notation)
+
+----------------------------------------------------------
+
+## May 21, 2021
+
+**Today's Progress**:
+- Started 'JavaScript Bootcamp' with Reed Barger on Scrimba 
+    - `globalThis` - for referencing the global object across all environments 
+    - running JS in strict mode vs sloppy mode 
+    - issues with hoisting when using `var`
+    - using `let` & `const`
+    - variable shadowing 
+
+----------------------------------------------------------
+
+## May 20, 2021
+
+**Today's Progress**:
+- Finished Build Pac-Man in JavaScript (Next-level JavaScript - Scrimba FE Career Path)
+    - Added 'game over' functionality (when Pac-Man runs into a ghost)
+        - Stop all the ghosts from moving (`clearInterval()`)
+        - Remove the event listener from the control keys 
+
+----------------------------------------------------------
+
 ## May 18, 2021 (Day 100 #100DaysOfCode)
 
 **Today's Progress**:
