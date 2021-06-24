@@ -18,6 +18,359 @@
 
 # 2021
 
+## June 23, 2021 ([R2 Day 20 #100DaysOfCode](https://twitter.com/maelingcodes/status/1407899183256903683?s=20))
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Completed the mobile homepage design in Figma 
+
+**Thoughts**: 
+- Since I'm working with table data for the activities, I had to figure out how to best present that in the mobile view. I decided to go with a card presentation for each activity that highlights some of the key data fields in a non-table form.
+
+
+----------------------------------------------------------
+
+## June 22, 2021 (R2 Day 19 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Completed the mobile & desktop CSS styling for the 'Sign In' and 'Sign Up' pages
+- Completed the 'Car Sales Site' project in 'Figma to Code' course on Scrimba
+    - Used the `clip-path` property to set a clipping region that shows what is inside the region and hides anything outside of the region
+    - `getComputedStyle`, `getPropertyValue` for accessing CSS styles of an element with JavaScript
+    - `mouseup` event with a `document` eventListener for triggering a function that closes the menu when user clicks anywhere outside of the menu
+
+**Resources**
+- [`clip-path` - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path)
+
+----------------------------------------------------------
+
+## June 21, 2021 (R2 Day 18 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Car Sales Site' project in 'Figma to Code' course on Scrimba
+    - Worked on CSS styling for mobile view 
+- Updates to my 'Grow zone finder' project
+    - small fixes to mobile view (placeholder text appearing cut off in input field)
+- Resumed working on my 'Homeschool Journal' web app (Python/Flask/SQLite)
+    - Made figma design for sign in page (mobile & desktop)
+    - Started CSS styling of sign in page (mobile view)
+    - Learned how to style checkboxes with CSS (not straightforward: involves hiding the default input checkbox and creating your own box & checkmark)
+
+**Link to work**:
+- [Homeschool Journal (repo)](https://github.com/maelingmurphy/homeschool-journal)
+- [Grow Zone Finder (live link)](https://growzonefinder.netlify.app/)
+
+**Resources**
+- [How to create a custom checkbox with pure HTML + CSS](https://www.youtube.com/watch?v=xNtT8NGinxU )
+----------------------------------------------------------
+
+## June 19, 2021 (R2 Day 17 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished styling and deployed my first React project, 'Grow Zone Finder'!
+
+**Thoughts**: 
+- Deploying my React app on Netlify was much more straightforward than I thought it was going to be!
+
+**Link to work**:
+- [Grow Zone Finder - Live link!](https://growzonefinder.netlify.app/)
+
+**Resources**
+- [Box shadow generator](https://html-css-js.com/css/generator/box-shadow/)
+- [Deploy a React app on a server](https://www.pluralsight.com/guides/deploy-a-react-app-on-a-server)
+
+----------------------------------------------------------
+
+## June 18, 2021 (R2 Day 16 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on Frontend Mentor Challenge (payAPI)
+    - Styled home page sections:
+        - Easy to implement 
+        - Simple UI & UX
+        - Features 
+    - Fixed padding issues with sections
+    - Fixed background circle SVG issues 
+- Worked on personal project (Grow Zone Finder)
+    - Did revision of desktop Figma design prototype
+    - Set up separate CSS files for each component 
+    - Added search icon to input field
+    - Installed and used react-icons along with IconContext for `className` styling 
+
+**Resources**
+[Iconify (Figma Plugin) - Import icons from different libraries](https://www.figma.com/community/plugin/735098390272716381/Iconify)
+----------------------------------------------------------
+
+## June 17, 2021 (R2 Day 15 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Car Sales Site' project in 'Figma to Code' course on Scrimba
+    - Set up HTML structure for project 
+- Worked on personal project (Grow Zone Finder)
+    - Created Figma design prototype for mobile & desktop layouts 
+
+----------------------------------------------------------
+
+## June 16, 2021 (R2 Day 14 #100DaysOfCode)
+
+**Today's Progress**:
+- Reviewed React hooks (`useState`, `useEffect`)
+- Worked on personal project (Growing Zone Finder)
+    - Resolved issues related to "lifting state up" and determining what component would serve as the "single source of truth"
+    - App now displays zone data from the API 
+    - Figured out how to hide/display Results component based on state of some of my variables via conditional logic
+
+**Link to work**:
+- [Growing Zone Finder](https://github.com/maelingmurphy/grow-zone-finder)
+
+**Resources**
+- [`useState` - webdevsimplified.com ](https://blog.webdevsimplified.com/2020-04/use-state/)
+- [`useEffect` - webdevsimplified.com](https://blog.webdevsimplified.com/2020-04/use-effect/)
+----------------------------------------------------------
+
+## June 15, 2021 (R2 Day 13 #100DaysOfCode)
+
+**Today's Progress**:
+- Started working on a personal React project - 'Growing Zone Finder' 
+    - Used the state hook (`useState`) to preserve my zip code variable 
+    - Reviewed regular expressions for implementing zip code format validation 
+        - Used `test()` method to test if a regular expression matched a specified string
+    - Connected form to API for successful GET request using `async`/`await` with the Fetch API. Used `try...catch` statement for error handling
+
+- Started `Async JavaScript` section in Scrimba's 'JavaScript' Bootcamp course
+    - Network requests with `fetch()`
+    - Using `async` and `await`
+
+
+**Link to work**:
+- [Growing Zone Finder](https://github.com/maelingmurphy/grow-zone-finder)
+- [zip code format validation using regex](https://scrimba.com/scrim/cavRk3Sw)
+
+**Resources**
+- [Regular expression syntax cheatsheet](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
+- [Site for testing regular expressions - regex101](https://regex101.com/)
+- [`test()` method for use with regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test)
+- [Validate user input in JavaScript with regular expressions](https://raddevon.com/articles/validate-user-input-javascript-regular-expressions/)
+----------------------------------------------------------
+
+## June 14, 2021 (R2 Day 12 #100DaysOfCode)
+
+**Today's Progress**:
+- Finished 'Tic-Tac-Toe' project tutorial by reactjs.org
+    - creating class components & function components
+    - "lifting up state" 
+    - importance of immutability & pure components 
+- Started 'Classes' section in Scrimba's 'JavaScript' Bootcamp course
+    - constructor functions
+    - the prototype chain
+- Practiced working with API for new React project
+
+**Resources**
+- [Tutorial - Intro to React (Tic-Tac-Toe)](https://reactjs.org/tutorial/tutorial.html)
+
+----------------------------------------------------------
+
+## June 12, 2021 (R2 Day 11 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed 'React JS Crash Course 2021 - Traversy Media'
+    - Working with JSON server for mock backend
+    - The Effect Hook : `useEffect` 
+    - Fetching, deleting, adding and updating tasks on the JSON server
+    - Using `react-router-dom` to create routes using a variety of hooks: 
+        - `<BrowserRouter>`
+        - `<Route>`
+        - `<Link>` - prevent page reloading when switching between routes with `<a>` tags
+        - `useLocation` - looks at the route you're currently on
+- Finished 'Objects & Maps' section in Scrimba's 'JavaScript' Bootcamp course
+    - Merging objects with object spread operator (`...`) and `Object.assign()`
+    - Maps
+    - Using arrow functions to create methods (based on lexical `this`)
+
+
+**Resources**
+- [Using the Effect Hook](https://reactjs.org/docs/hooks-effect.html)
+- [`<BrowserRouter>` - reactrouter.com](https://reactrouter.com/web/api/BrowserRouter)
+- [`<Route>` - reactrouter.com](https://reactrouter.com/web/api/Route)
+- [`<Link>` - reactrouter.com](https://reactrouter.com/web/api/Link)
+- [`useLocation`](https://reactrouter.com/web/api/Hooks/uselocation)
+- [Style React Components: 7 Ways Compared](https://www.sitepoint.com/react-components-styling-options/)
+
+
+----------------------------------------------------------
+
+## June 11, 2021 (R2 Day 10 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Objects & Maps' section in Scrimba's 'JavaScript' Bootcamp course
+    - Object destructuring 
+- Continued 'React JS Crash Course 2021 - Traversy Media'
+    - Using expressions in JSX
+    - Creating and using a component
+    - Component props
+    - PropTypes
+    - Styling in React
+    - Viewing the component tree with React Dev Tools
+    -  Events
+    - State & useState Hook
+    - Global state
+    - Icons with `react-icons`
+    - Build for production
+
+**Thoughts**: 
+- The ES7 React extension for VSCode can be useful since it gives access to shortcuts for incorporating React-related code snippets 
+- Props are essentially properties that can be passed to React components. You can <em>define your own</em> attributes and assign values to them with interpolation `{}`, just like how you can assign attributes and values to an HTML tag
+- Learned how to change default Emmet double quotes to single quotes in settings: https://stackoverflow.com/questions/30925269/single-quotes-in-emmet-with-vs-web-essentials
+
+**Resources**
+- [ES7 React extension for VSCode](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [Components & Props](https://reactjs.org/docs/components-and-props.html)
+- [What is props and how to use it in React](https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0)
+- [HTML attribute reference](https://www.w3schools.com/tags/ref_attributes.asp)
+- [JSON Server for mock backend](https://github.com/typicode/json-server)
+----------------------------------------------------------
+
+
+## June 10, 2021 (R2 Day 9 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'The Beginner's Guide to React' course by Kent C. Dodds on egghead.io
+    - Re-rendering in React (Virtual DOM vs Real DOM)
+- Started 'React JS Crash Course 2021 - Traversy Media'
+    - installed `create-react-app` and ran `npm start` to open a development server on localhost 3000 
+    - installed React developer tools browser extension 
+
+**Thoughts**: 
+Today, I learned why #React sites are known to provide a fast user experience. React works with a virtual DOM & only updates the UI elements that have changed when it re-renders.
+
+This is compared to real DOM updates, where the ENTIRE UI is updated. 
+
+**Resources**
+- [React: The Virtual DOM](https://www.codecademy.com/articles/react-virtual-dom)
+- [Virtual DOM and Internals](https://reactjs.org/docs/faq-internals.html)
+- [React JS Crash Course 2021 - Traversy Media](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
+
+----------------------------------------------------------
+
+
+## June 9, 2021 (R2 Day 8 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'The Beginner's Guide to React' course by Kent C. Dodds on egghead.io
+    - Validation of custom React components with PropTypes
+    - Interpolation in JSX 
+    - Handling moving back and forth between JavaScript and JSX syntax 
+- Continued 'Objects & Maps' section in Scrimba's 'JavaScript' Bootcamp course
+    - Object values are "passed by reference" while primitive values are "passed by value"
+    - Accessing object key values with bracket notation - can be used dynamically 
+
+----------------------------------------------------------
+
+## June 8, 2021 (R2 Day 7 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'The Beginner's Guide to React' course by Kent C. Dodds on egghead.io
+    - Writing comments in React JSX (`{/* comment goes here */}`))
+    - Creating a reusable React component
+- Reviewed JS concepts
+    - Passing object properties as arguments to a function call
+- Finished 'Data Analytics Dashboard' section in 'Figma to Code' course on Scrimba
+    - Created and styled an interactive nav menu
+        - microinteractions using `translateX()` function & `transition`, `transform` properties
+        - used JS to code the nav menu sliding in and out based on user interaction ('click' events)
+            - CSS properties (`transform`, `transition`)
+            - CSS function (`translateX()`)
+            - event listeners in JavaScript 
+    - Finished CSS styling for mobile & desktop views
+
+**Resources**
+- [Writing comments in React JSX](https://sebhastian.com/react-jsx-comments/#:~:text=Writing%20comments%20in%20React%20JSX&text=To%20write%20comments%20in%20JSX,brace%20%7B%2F*%20comment%20here%20*%2F%7D%20.)
+----------------------------------------------------------
+
+## June 7, 2021 (R2 Day 6 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued 'Data Analytics Dashboard' section in 'Figma to Code' course on Scrimba
+    - `clamp()` CSS function: clamps a value between an upper bound and a lower bound (minimum value, preferred value, maximum allowed value). Very useful for making fluid typography.
+    - `calc()` CSS function: allows you perform calculations when specifying CSS property values. It can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed. 
+
+**Resources**
+- [`clamp()` CSS function - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp())
+- [`calc()` CSS function - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/calc())
+----------------------------------------------------------
+
+## June 6, 2021 (R2 Day 5 #100DaysOfCode)
+
+**Today's Progress**:
+- Watched some Intro to React videos
+    - JSX stands for JavaScript XML 
+- Watched interviews with a VP of Engineering and a Principal Engineer
+
+**Resources**
+- [Find engineering teams that share your values](https://www.keyvalues.com/)
+- [React vs vanilla JavaScript](https://www.youtube.com/watch?v=OFHAIpw2oZI)
+- [The power of JSX](https://www.youtube.com/watch?v=BS9g6Z3lbBU)
+----------------------------------------------------------
+
+## June 5, 2021 (R2 Day 4 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Data Analytics Dashboard' section in 'Figma to Code' course on Scrimba
+    - `background-attachment` CSS property for setting whether a background image's position is fixed or can scroll within its containing block
+    - `background-blend-mode`
+    - `background-size`
+
+**Resources**
+- [CSS gradient generator](https://cssgradient.io/)
+- [`background-attachment` - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
+
+----------------------------------------------------------
+
+## June 4, 2021 (R2 Day 3 #100DaysOfCode)
+
+**Today's Progress**:
+- Started 'Objects & Maps' section in Scrimba's 'JavaScript' Bootcamp course
+    - Objects as data structures for managing key-value pairs
+    - Methods are functions that are on objects - direct properties of an object
+    - Dot notation for invoking methods and accessing values in an object
+
+
+- Continued 'The Beginner's Guide to React' course by Kent C. Dodds on egghead.io
+    - interpolating values in JSX
+    - using spread operator to pass props to `<div>`
+    - adding additional props w/ assistance of `_extends()` function, based on `Object.assign()` method
+
+- Continued Frontend Mentor Challenge (payAPI)
+    - changed fill color of SVG images with CSS `fill` property
+    - used `align-self` to override a flex item's `align-items` value. The default value is `stretch`
+    - used absolute and relative positioning to style background shape elements for homepage layout design
+    - did some pair programming with my collaborator for this project 
+
+**Resources**
+- [`align-self` - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
+----------------------------------------------------------
+
+## June 3, 2021 (R2 Day 2 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed 'Functions' section in Scrimba's 'JavaScript' Bootcamp course
+    - Was able to successfully write my own functions that use the closure behavior! 
+    - Default function values (ES6)
+    - Arrow functions and the fat arrow syntax (`=>`)
+    - Callback functions
+    - Higher order functions, Partial application & single-responsiblity
+    - Advice for naming functions
+- Started The Beginner's Guide to React (egghead)
+    - Learned how to create user interfaces via
+        - vanilla JS & DOM
+        - React's createElement API 
+        - Creating React elements with JSX
+        - Using Babel as a JavaScript compiler 
+
+
+----------------------------------------------------------
+
 ## June 2, 2021 (R2 Day 1 #100DaysOfCode)
 
 **Today's Progress**:
