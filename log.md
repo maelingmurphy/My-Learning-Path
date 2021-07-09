@@ -18,6 +18,190 @@
 
 # 2021
 
+## July 9, 2021
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Styled 'Add Students & Subjects' onboarding form for homepage
+    - Styled homepage with a grid for activity cards
+    - Added and styled footer for mobile & desktop view
+- Continued working on Frontend Mentor collab challenge (payAPI)
+    - Styled 'Pricing' page for tablet layout (used CSS grid for 3-column layout)
+
+**Thoughts**: 
+I'm so excited to have finished the CSS styling for my Homeschool Journal web app! Several months ago, I had become overwhelmed with finishing this project due to difficulties in not knowing how to style the app. Working on the 'Figma to Code' course and the collab 'Frontend Mentor' challenge over the past couple of months have really helped me understand CSS more and get a btter feel for how web apps are designed. Creating a design prototype in Figma for the layouts of my pages also helped my workflow tremendously! I work much more efficiently when I'm coding a layout from a reference design. Even if it's a rough sketch, it helps to see a layout so you have a better idea of how to create the HTML structure which serves as the foundation for your HTML styling. 
+
+**Link to work**:
+- [Homeschool Journal - GitHub Repo](https://github.com/maelingmurphy/homeschool-journal)
+
+----------------------------------------------------------
+
+## July 8, 2021
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Styled user 'Profile' page layout (mobile & desktop)
+    - Fixed navbar width issue
+    - Styled 'Edit Profile' page (mobile & desktop)
+
+----------------------------------------------------------
+
+## July 7, 2021 (R2 Day 31 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on Frontend Mentor collab challenge (payAPI)
+    - Styled company logo layout with CSS grid
+    - Styled 'Ready to Start' section tablet layout and figured out some interesting absolute positioning techniques to get the form button to overlap with the input field
+- Continued 'The Beginner's Guide to React' course by Kent C. Dodds on egghead.io
+    - Styling React components with className and inline styles
+    - Event handlers with React 
+- Read about how to create a good pull request
+- Continued working on my 'Homeschool Journal' web app
+    - Designed 'profile' and 'profile edit' page mobile layouts in Figma
+
+**Link to work**:
+- [Frontend Mentor Challenge - payAPI](https://github.com/MareikeW/payAPI-multipage-website)
+
+**Resources**
+- [The Beginner's Guide to React Course](https://egghead.io/courses/the-beginner-s-guide-to-react)
+- [Building a great pull request](https://tighten.co/blog/building-a-great-pull-request/)
+
+
+----------------------------------------------------------
+
+## July 6, 2021 (R2 Day 30 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Fixed activity data queries in routes.py so results were ordered by date in ascending order
+    - Finished styling activity log mobile & desktop layout with color-coded activity status tags 
+    - Made desktop version of navbar using CSS grid 
+
+----------------------------------------------------------
+
+## July 5, 2021 (R2 Day 29 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Fixed database model so all date column entries are datetime objects instead of strings
+    - Created custom Jinja filter to correctly format activity date so it could be set as a datepicker value (for the edit activity form)
+    - Used CSS grid to create a table layout for activity log page
+
+----------------------------------------------------------
+
+## July 4, 2021 (R2 Day 28 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued Scrimba's 'The JavaScript Bootcamp' course
+    - Prototypal inheritance with classes
+    - Inversion of control problem with callback functions ("callback hell")
+    - Promises 
+- Continued working on my 'Homeschool Journal' web app
+    - Styled the mobile and desktop layouts for the attendance history page
+----------------------------------------------------------
+
+## July 2, 2021 (R2 Day 27 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Finished styling mobile homepage layout by styling activity cards. Dynamically generated classes for custom styling of 'Completed' vs 'Not Completed' activity cards using Jinja template filters
+    - Updated flask flash message styling
+    - Updated sign in and sign up page layouts 
+
+----------------------------------------------------------
+
+
+## July 1, 2021 (R2 Day 26 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Updated HTML structure for activity card information
+
+----------------------------------------------------------
+
+## June 30, 2021 (R2 Day 25 #100DaysOfCode)
+
+**Today's Progress**:
+- Worked on a LeetCode challenge (#26 Remove duplicates from sorted array)
+- Continued working on Frontend Mentor challenge (payAPI)
+    - Finished styling footer for tablet version 
+- Continued working on my 'Homeschool Journal' web app
+    - Styled scheduled activities form
+    - Updated HTML structure on index.html for displaying scheduled activities with data populated from database
+
+**Thoughts**: 
+- Learned that you can use `margin: auto` to align individiual flex items when `display: flex` is set on parent element 
+
+**Resources**
+- [The peculiar magic of flexbox and auto margins](https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/)
+- [Remove duplicates from sorted array - LeetCode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+
+----------------------------------------------------------
+
+## June 29, 2021 (R2 Day 24 #100DaysOfCode)
+
+**Today's Progress**:
+- Attended Virtual Coffee Morning Crowd mtg
+- Researched advice for building a great dev resume 
+- Watched mock React interviews and created list of topics to research
+- Read the React docs
+    - Intro to JSX
+    - Rendering elements
+    - Components & Props 
+
+**Resources**
+- [React docs - Main Concepts](https://reactjs.org/docs/hello-world.html)
+
+----------------------------------------------------------
+
+## June 28, 2021 (R2 Day 23 #100DaysOfCode)
+
+**Today's Progress**:
+- Continued working on Frontend Mentor challenge (payAPI)
+    - Finished mobile CSS styling for homepage and pricing page 
+- Continued working on my 'Homeschool Journal' web app
+    - Styled log attendance form
+    - Learned how to create custom select dropdown
+- Learned more about how to work with commits using git in the CLI
+    - View history of commits: `git log` 
+    - Undo last (single) commit in a local repo:  `git reset HEAD~1`
+    - Write commit w/ subject line (no body): `git commit -m`
+    - Write commit w/ subject line + body: `git commit`
+
+**Resources**
+- [How do `flex-basis`, `flex-grow`, `flex-shrink` work?](https://www.youtube.com/watch?v=LVLmX-fx09w)
+- [How to write a git commit message](https://chris.beams.io/posts/git-commit/)
+
+----------------------------------------------------------
+
+## June 25, 2021 ([R2 Day 22 #100DaysOfCode](https://twitter.com/maelingcodes/status/1408583954723135488?s=20))
+
+**Today's Progress**:
+- Continued working on my 'Homeschool Journal' web app
+    - Created a slider nav for the mobile homepage with JS! 
+    - Styled date header on mobile homepage
+
+**Thoughts**: 
+- Font awesome has fixed width versions of their icons to help with vertical alignment of a series of icons (like in a list or a navigation menu). this really helped me out for my sidebar nav menu styling for my mobile homepage layout today! 
+
+**Resources**
+- [Fixed width icons](https://fontawesome.com/v5.15/how-to-use/on-the-web/styling/fixed-width-icons)
+----------------------------------------------------------
+
+
+## June 24, 2021 (R2 Day 21 #100DaysOfCode)
+
+**Today's Progress**:
+- Completed my first LeetCode challenge (Two Sum)
+- Started using Anki as a learning/flashcard tool for remembering important programming concepts & algorithms
+- Attended my first Virtual Coffee dev meetup online!
+
+**Resources**
+- [Anki - digital flash cards](https://apps.ankiweb.net/)
+- [Virtual Coffee - dev community](https://virtualcoffee.io/)
+
+----------------------------------------------------------
+
 ## June 23, 2021 ([R2 Day 20 #100DaysOfCode](https://twitter.com/maelingcodes/status/1407899183256903683?s=20))
 
 **Today's Progress**:
@@ -2147,7 +2331,7 @@ sqlite> SELECT * FROM <table>;
     password_hash = db.Column(db.String(128))
     students = db.relationship('Student', backref='admin', lazy='dynamic')
  ```
- - To view tables you created in sqlite, type `sqlite3 app.db` in the terminal. Then at the `sqlite>` command line, type `.tables`. To see schema for a specific table, type `.schema table`. To see all data in a specific table, type 
+ - To view tables you created in sqlite, type `sqlite3 app.db` in the terminal. Then at the `sqlite>` command line, type `.tables`. To see schema for a specific table, type `.schema table`.
 
 **Resources**
 1. [Mixins and Python](https://www.ianlewis.org/en/mixins-and-python)
